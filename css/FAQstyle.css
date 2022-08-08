@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/*header*/
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: rgb(80, 112, 255);
+    padding: 150px;
+
+}
+
+.header_content{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.header_description{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+/*Acordeon FAQ*/
+.accordion {
+    margin-top: 100px;
+    margin-bottom: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    background: #78a8ac;
+  }
+  
+  .accordion__label,
+  .accordion__content {
+    padding: 30px 20px;
+  }
+  
+  .accordion__label {
+    display: block;
+    color: #ffffff;
+    font-weight: 700px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+  }
+  
+  .accordion__label:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion__label::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+  }
+  
+  .accordion__content {
+    background: #ffffff;
+    line-height: 1.6;
+    font-size: 15px;
+    display: none;
+  }
+  
+  .accordion__input {
+    display: none;
+  }
+  
+  .accordion__input:checked ~ .accordion__content {
+    display: block;
+  }
+  
+  .accordion__input:checked ~ .accordion__label::after {
+    transform: translateY(-50%) rotate(0.5turn);
+  }
+
+  /*Icono-bot flotante*/
+.container_btn .btn_flotante .btn {
+    background-color: cyan;
+    padding: 15px 25px;
+    border-radius: 100%;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgb(13, 211, 255);
+}
+
+  /*footer*/
+footer{
+    list-style: none;
+    padding: 40px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,65,1) 35%, rgba(43,80,88,1) 100%);
+    text-align: center;
+}
+
+.footer_ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer_ul .fo_link{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer_ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer_ul li .fo_link:hover{
+    opacity: 1;
+}
+
+._marcalogo{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+._marcalogo img{
+    width: 120px;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/*fin footer*/

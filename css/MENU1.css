@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,#ffffff,#f1f0f1);
+
+}
+.menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.menu a{
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.055);
+    position: relative;
+    transition: all.4s;
+}
+
+.menu a:hover{
+    box-shadow: 0 20px 30px rgb(0, 0, 0,0.24);
+}
+
+.menu a::before{
+    content: ' ' ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #5a0dd6;
+    z-index: 999;
+    transition: all .4s;
+
+}
+.menu a:hover::before{
+    height: 50%;
+}
+nav{
+    background: whitesmoke;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.enlace{
+    position: absolute;
+    padding: 20px 30px;
+}
+
+
+
+.hamicon{
+    width: 25px;
+}
+
+.logo{
+    width: 400px;
+}
+
+.login{
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    bottom: 5px;
+    background: #141414;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.login span {
+	transition: .4s ease-in-out all;
+	position: absolute;
+    bottom: 10px;
+	left: 30%;
+    
+}
+
+.login .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+    bottom: 4px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.login svg {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+}
+
+.login:hover {
+	background: #2f9b05;
+}
+
+.login:hover .icono {
+	left: calc(100% - 50px);
+	opacity: 1;
+}
+
+.login:hover span {
+	left: 20px;
+}
+
+nav ul{
+    float: right;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px 25px;
+    border-radius: 4px;
+}
+
+nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    background: cyan;
+    display: none;
+}

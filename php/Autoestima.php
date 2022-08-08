@@ -1,0 +1,199 @@
+<?php
+session_start();
+
+function obtenerUsuario(){
+
+    if (isset($_SESSION["usuario"])) {
+        return "salir";
+    }
+    return "entrar";
+}
+
+function directorioReturn(){
+    if (isset ($_SESSION["usuario"])){
+        return "./auth/logout.php";
+    }
+    return "./InicioSesion copy.php";
+    
+}
+
+function traducir(){
+    if (isset ($_SESSION["usuario"])) {
+        return "Logout";
+    }
+    return "Salir";
+}
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/Chatbot.css">
+    <link rel="stylesheet" href="../css/Autoestimastyle.css">
+    <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
+    
+    <title>Inner Peace - Autoestima y desarrollo personal</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav>
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="checkbtn">
+            <img src="../img/hamicon.png" alt="hamicon" class="hamicon">
+        </label>
+        <a href="../php/Home.php" class="enlace">
+            <img src="../img/logo_large.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a href="../php/Psicologos.php" class="navlink" id="link1">Psicologos</a></li>
+            <li><a href="../php/FAQ.php" class="navlink" id="link2">Preguntas frecuentes</a></li>
+            <li><a href="../php/casos clinicos.php" class="navlink" id="link3">Blog</a></li>
+            <li><a href="../php/Identidad.php" class="navlink" id="link4">Nuestra identidad</a></li>
+            <a href="<?=directorioReturn(); ?>" class="navlink" id="link5"><button class="login">
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+					</svg>
+                </div>
+                <span id="<?=traducir(); ?>"><?=obtenerUsuario(); ?></span></button></a>
+        </ul>
+    </nav>
+
+    <!-- Bot chat -->
+    <a href="../php/bot.php">
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">PeaceBot 🤖</button>
+    </div></a>
+
+    <div class="container-content">
+        <article>
+            <blockquote><h1 id="first-quote">Autoestima y desarrollo personal</h1></blockquote>
+            <a name="que es"><h2 id="second-quote">¿Qué es la falta de autoestima?</h2></a>
+
+            <p class="context" id="problema1">Cuando hablamos de baja autoestima o falta de autoestima, nos referimos a una autoestima que no permite a la persona sentirse valiosa o tener un juicio objetivo sobre ella misma. Es decir, la autoestima baja es la evaluación negativa del autoconcepto, lo cual hace que la persona se sienta inferior a los demás. Una persona con baja autoestima es una persona que no es segura de sí misma, que se compara constantemente con los demás y que tiene miedo a decir lo que piensa o siente. La autoestima baja puede ser un precursor de trastornos como: depresión, ansiedad, trastornos alimenticios u otros.</p>
+
+            <blockquote><a name="signos"><h2 id="problema2">¿Cuales son los signos o sintomas de la baja autoestima?</h2></a></blockquote>
+
+            <p  id="problema3">Como la autoestima es resultado de la valoración que una persona tiene sobre ella misma, los síntomas de la baja autoestima tienden a diferir. Sin embargo, existen características que son comunes en todas las personas que tienen baja autoestima. A continuación, te contamos sobre algunas de ellas: </p>
+            <div class="img_list"><img src="../img/autoestima_tema.jpg" class="tema_img"></div>
+                <ul>
+                    <li id="li1">Compararse constantemente con los demás</li>
+                    <li  id="li2">No sentirse seguro/a de uno/a mismo/a</li>
+                    <li  id="li3">Tener miedo a decir lo que siente o piensa</li>
+                    <li  id="li4">Tener terror a equivocarse</li>
+                    <li  id="li5">Querer complacer a los demás todo el tiempo</li>
+                    <li  id="li6">Buscar la aprobación constante de los demás</li>
+                    <li  id="li7">Permitir la manipulación de los demás</li>
+                    <li  id="li8">No aceptar la crítica</li>
+                    <li id="li9">Dificultades para decir que no</li>
+                    <li  id="li10">No creer en los logros propios</li>
+                </ul></p></p>
+                
+                <blockquote><a name="tipos"><h2  id="problema4">Tipos de autoestima</h2></a></blockquote>
+                                <p>
+                                    <ul>
+                                        <li id="li11">Autoestima alta y estable:
+                                            Es con diferencia la autoestima a la que todos los mortales queremos llegar y la que tal vez la que más cueste alcanzar por la propia inestabilidad de la vida, de las emociones, de las circunstancias… pero más allá de lo que suceda fuera de nosotros, lo importante es lo que sucede en nuestro interior ya que eso nos hará reaccionar de una manera u otra y con una actitud determinada.</li> 
+                                        <li id="li12">Autoestima baja y estable:
+                                            Sucede lo contrario con el tipo de autoestima baja y estable. Las personas que tienen una autoestima baja son personas que de manera estabilizada en el tiempo, sin importar que externamente se les favorezca o no, tienden a infravalorarse y mantienen un dialogo interno con mayor carga negativa. En este caso, la estabilidad hace que sean personas que en casi la totalidad de sus días tengan muy interiorizado el acto de que no dan la talla y no son auto-eficaces en aquello que hacen, puesto que siempre tienen el temor a fallar y hacerlo mal. Eso les lleva a tener un estado de ánimo apático y depresivo.</li> 
+                                        <li id="li13">Autoestima alta e inestable:
+                                            Estas personas tienen de igual manera que las personas con un tipo de autoestima alta y estable, un concepto sobre ellas mismas adecuado valorando sus capacidades, fortalezas y debilidades. El inconveniente se refleja en la inestabilidad y en la imposibilidad que tienen de mantener su autoestima de manera estable en el tiempo, eso les lleva a encontrarse en situaciones que consideran amenazantes (posibilidad de vivir un fracaso) para su autoestima  y a ejecutar una respuesta agresiva o pasivo-agresiva.</li> 
+                                        <li id="li14">Autoestima baja e inestable:
+                                            Completando las cuatro composiciones de tipos de autoestima en cuanto a alta-baja y estable-inestable… la autoestima baja e inestable es la menos favorecedora. En este polo, encontramos a personas con una autoestima que además de baja, fluctúa en el tiempo con inestabilidad, pudiendo experimentar pequeños momentos de satisfacción y de capacidad de logro pero que rápidamente se disminuye.
+                                            Dichas personas en ocasiones son fácilmente influenciables y pueden tomar decisiones por agradar a las demás personas y así sentir aprecio. Es por ello, que pueden además, generar dependencia emocional.</li>
+                                    </ul>
+                                </p>
+                                       </p>
+                                       <blockquote><a name="causas"><h2 id="problema5">Causas de la falta de autoestima</h2></a></blockquote>
+
+                                       <p class="context" id="problema6">Las causas de una mala autoestima puede ser estancamiento en el tipo de vida que llevamos, sufrir algún tipo de trastorno emocional como depresión, ansiedad, algún tipo de fobia, problemas del sueño que alteren el ritmo de vida habitual.</p>
+
+                                       <blockquote><a name="tips"><h2 id="problema7">Tips para mejorar tu autoestima</h2></a></blockquote>
+                                       <p>
+                                           <ul>
+                                               <li id="li15">Busca y encuentra el origen de tu baja autoestima. 
+                                                Como te diría un buen arquitecto, no se puede empezar la casa por el tejado, así que para poder mejorar tu autoestima, primero tendrás que encontrar el origen de todo. ¿Un consejo para ello? pregúntate por lo menos hasta en tres ocasiones el “¿por qué?” de tus miedos.</li>
+
+                                               <li id="li16">Hazlo, inténtalo aunque puedas fracasar.
+                                                El ser humano tiende a evitar y a no enfrentarse a lo que teme y le provoca miedo, esta es la salida más sencilla, rápida y fácil a corto plazo ya que elimina la ansiedad que la situación provoca.</li>
+
+                                               <li id="li17">Sustituye tus objetivos por valores
+                                                A veces no conseguir objetivos muy marcados y deseados puede llevar a frustrarnos y a sentir que no valemos para nada, esto no pasa cuando son los valores y no los objetivos lo que marcan nuestra dirección en la vida.
+                                                
+                                                Vamos a verlo con un ejemplo concreto: imagínate que te estás preparando una oposición, llevas meses y meses estudiando y haciendo menos planes de ocio; en este caso tus valores son el esfuerzo, la perseverancia, la superación personal, la capacidad de sacrificio, la fuerza de voluntad y la responsabilidad entre otros.</li>
+
+                                               <li id="li18">Identifica tus fortalezas
+                                                A día de hoy sabemos que todos y cada uno de nosotros nacemos con una serie de cualidades, características innatas o fortalezas que son nuestros puntos fuertes, son aquellas habilidades que se te dan especialmente bien, el problema viene cuando la persona con autoestima baja no cree que las tenga y además le cuesta muchísimo identificarlas.</li>
+                                           </ul>
+                                       </p>
+                                       <br>
+                                       <!-- <video src="../Videos/y2mate.com - La gente sin autoestima SIEMPRE HACE ESTO_1080p.mp4" width="500" height="300" controls></video>
+                                     --><iframe width="853" height="480" src="https://www.youtube.com/embed/0sRAzXRON8Y" title="La gente sin autoestima SIEMPRE HACE ESTO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                       <br><cite id="cite">Video gracias a: Vida Práctica en YouTube</cite>
+        </article>
+        <div class="container-aside">
+          <aside>
+              <h2 id="auto1">Autoestima y desarrollo personal</h2>
+              <p><a href="#que es" id="auto2">¿Qué es la falta de autoestima?</a></p>
+              <p><a href="#signos" id="auto3">Sintomas de la baja autoestima</a></p>
+              <p><a href="#tipos" id="auto4">Tipos de autoestima</a></p>
+              <p><a href="#causas" id="auto5">Causas de la baja autoestima</a></p>
+              <p><a href="#tips" id="auto6">Tips para mejorar tu autoestima</a></p>
+                  
+          </aside>
+        </div>
+    </div>
+
+    <footer>
+        <ul class="footer_ul">
+            <li><a href="../php/Home.php" class="fo_link" id="fo1">Home</a></li>
+            <li><a href="../php/Identidad.php"class="fo_link" id="fo2">Sobre nosotros</a></li>
+            <li><a href="../php/Psicologos.php"class="fo_link" id="fo3">Psicologos</a></li>
+            <li><a href="../php/Centrosdeayuda.php" class="fo_link" id="fo4">Centros de ayuda</a></li>
+            <hr class="hr_footer">
+        </ul>
+        <div class="_marcalogo">
+            <img src="../img/logo_white_large.png">
+            <p class="copyright">ClearTechChoice © 2022</p>
+        </div>
+        
+        <p class="social social-text">Nuestras redes sociales!</p>
+        
+        <div class="social">
+            
+            <ul class="footer_ul">
+                <li><a href="https://www.instagram.com/innerpeace_cdb/"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 16 16" class="instagram"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" fill="#fff"></path> </svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"viewBox="0 0 16 16" class="facebook"> <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/> </svg></a></li>
+                <li><a href=""><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 330.001 330.001" style="enable-background:new 0 0 330.001 330.001; fill: white;" xml:space="preserve">
+               <g id="XMLID_348_">
+                   <path id="XMLID_350_" d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602
+                       L0.001,62.603L0,275.001c0.001,8.284,6.716,15,15,15L315.001,290c8.285,0,15-6.716,15-14.999V62.602l-30.001,22L173.871,177.097z"
+                       />
+                   <polygon id="XMLID_351_" points="165.001,146.4 310.087,40.001 19.911,40 	"/>
+               </g></svg>
+               </a></li>
+            </ul>
+        </div>
+         <div class="translatebutton">
+                <input type="checkbox" name="translate" id="translate">
+             <label for="translate" class="trans"></label>
+         </div>
+    </footer>
+
+    
+    <!-- Script translate -->
+   <script src="../js/autoestima.js"></script>
+
+    <!-- Chatbot script -->
+    <script src="../js/Chatbot.js"></script>
+ 
+</body>
+</html>

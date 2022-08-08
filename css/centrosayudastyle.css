@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+
+/* Title */
+.title{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(80, 112, 255);
+    padding: 150px;
+}
+
+.title h1{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p{
+    color: white;
+    padding: 40px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* centros de ayuda */
+.container_identidad{
+	margin-top: 50px;
+}
+
+.about1{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.about2{
+	width: 100%;
+	padding: 100px 0px;
+}
+.about1 img{
+	height: auto;
+	width: 530px;
+    margin-right: 70px;
+}
+
+.mision_img{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 80px;
+	
+}
+
+.mision_img img{
+	width: 450px;
+}
+
+.about-text2{
+	width: 550px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.main2{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.about-text h2{
+	color: black;
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.about-text2 h2{
+	color: black;
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text, .about-text2 h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text, .about-text2 p{
+	color: rgb(80, 112, 255);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+/*footer*/
+footer{
+    list-style: none;
+    padding: 40px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,65,1) 35%, rgba(43,80,88,1) 100%);
+    text-align: center;
+}
+
+.footer_ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer_ul .fo_link{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer_ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer_ul li .fo_link:hover{
+    opacity: 1;
+}
+
+._marcalogo{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+._marcalogo img{
+    width: 120px;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/*fin footer*/

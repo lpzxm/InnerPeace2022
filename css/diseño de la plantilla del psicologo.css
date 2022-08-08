@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');  
+ 
+ html {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+            line-height: 1.4;
+        }
+        
+        
+ * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        body {
+            color: #404040;
+        }
+
+        
+        
+        .seccion-perfil-usuario{
+            margin-bottom: 50px;
+        }
+
+        .seccion-perfil-usuario .perfil-usuario-body,
+        .seccion-perfil-usuario {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-header {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(#B873FF, transparent);
+            margin-bottom: 1.25rem;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-portada {
+            display: block;
+            position: relative;
+            width: 90%;
+            height: 17rem;
+            background-image: linear-gradient(45deg, #FF9703,#1277FC);
+            border-radius: 0 0 20px 20px;
+           
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            border: 0;
+            border-radius: 8px;
+            padding: 12px 25px;
+            background-color: rgba(0, 0, 0, .5);
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
+            margin-right: 1rem;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-avatar {
+            display: flex;
+            width: 180px;
+            height: 180px;
+            align-items: center;
+            justify-content: center;
+            border: 7px solid #FFFFFF;
+            background-color: #DFE5F2;
+            border-radius: 50%;
+            box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+            position: absolute;
+            bottom: -40px;
+            left: calc(50% - 90px);
+            z-index: 1;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-avatar img {
+            width: 100%;
+            position: relative;
+            border-radius: 50%;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+            position: absolute;
+            left: -2px;
+            top: -2px;
+            border: 0;
+            background-color: #fff;
+            box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-body {
+            width: 70%;
+            position: relative;
+            max-width: 750px;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-body .titulo {
+            display: block;
+            width: 100%;
+            font-size: 1.75em;
+            margin-bottom: 0.5rem;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-body .texto {
+            color: #848484;
+            font-size: 0.95em;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-footer,
+        .seccion-perfil-usuario .perfil-usuario-bio {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+            background-color: #fff;
+            border-radius: 15px;
+            width: 100%;
+        }
+        
+        .seccion-perfil-usuario .perfil-usuario-bio {
+            margin-bottom: 1.25rem;
+            text-align: center;
+        }
+        
+        .seccion-perfil-usuario .lista-datos {
+            width: 50%;
+            list-style: none;
+        }
+        
+        .seccion-perfil-usuario .lista-datos li {
+            padding: 5px 0;
+        }
+        
+        .seccion-perfil-usuario .lista-datos li>.icono {
+            margin-right: 1rem;
+            font-size: 1.2rem;
+            vertical-align: middle;
+        }
+        
+        .seccion-perfil-usuario .redes-sociales {
+            position: absolute;
+            right: calc(0px - 50px - 1rem);
+            top: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .seccion-perfil-usuario .redes-sociales .boton-redes {
+            border: 0;
+            background-color: #fff;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: #fff;
+            box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+            font-size: 1.3rem;
+        }
+
+        footer{
+            list-style: none;
+            padding: 40px 0;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,65,1) 35%, rgba(43,80,88,1) 100%);
+            text-align: center;
+        }
+        
+        .footer_ul{
+            margin-top: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .footer_ul .fo_link{
+            color: white;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+        
+        .footer_ul li{
+            display: inline-block;
+            padding: 0 15px;
+        }
+        
+        .footer_ul li .fo_link:hover{
+            opacity: 1;
+        }
+        
+        ._marcalogo{
+            display: inline-block;
+            margin-top: 40px;
+        }
+        
+        ._marcalogo img{
+            width: 120px;
+        }
+        
+        footer p{
+            color: white;
+            margin-top: 30px;
+            font-size: 15px;
+        }
+        
+        /*fin footer*/
+
+        /*Icono-bot flotante*/
+    .container_btn .btn_flotante .btn {
+        background-color: cyan;
+        padding: 15px 25px;
+        border-radius: 100%;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 8px 15px rgb(13, 211, 255);
+    }

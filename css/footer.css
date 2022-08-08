@@ -1,0 +1,114 @@
+/*footer*/
+
+footer{
+    list-style: none;
+    padding: 40px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,65,1) 35%, rgba(43,80,88,1) 100%);
+    /* text-align: center; */
+}
+
+.footer_ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer_ul .fo_link{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer_ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer_ul li .fo_link:hover{
+    opacity: 1;
+}
+
+.hr_footer{
+    margin-top: 10px;
+    height: 3px;
+    border: none;
+    background: #fff;
+}
+
+._marcalogo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+._marcalogo img{
+    width: 120px;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.social-text{
+    font-size: 20px;
+}
+
+.social ul li{
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+.social ul li a{
+    display: block;
+    padding: 0 12px;
+    background: #333;
+    line-height: 50px;
+    box-shadow: 0 3px 5px 0px rgba(255, 255, 255, 0.295);
+    transition: .2s;
+}
+
+.social ul:hover a{
+    filter: blur(2px);
+}
+
+.social ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 5px 0px rgba(0, 255, 242, 0.4);
+    filter: none;
+}
+
+.social ul li a:hover{
+    background: black;
+}
+
+/* Boton translate */
+.trans{
+    float: left;
+    cursor: pointer;
+}
+
+
+#translate{
+    display: none;
+}
+
+.translatebutton{
+    position: relative;
+    float: left;
+    bottom: 40vh;
+}
+
+/*fin footer*/

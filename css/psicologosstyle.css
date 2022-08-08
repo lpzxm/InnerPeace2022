@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+.avatar{
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+}
+
+
+h1{
+    margin-top: 130px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(97, 96, 96);
+}
+
+.descripcion{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(53, 53, 53);
+}
+
+.general{
+    width: fit-content;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+    background: Lavender;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card_perfil{
+    width: 320px;
+    background: white;
+    box-shadow: 2px 2px 5px rgb(216, 216, 216);
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(201, 201, 201);
+    border: solid rgba(3, 133, 255, 0) 2px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.card_perfil:hover{
+    border: solid cyan 2px;
+    box-shadow: 0px 5px 25px rgb(255, 255, 255);
+    transform: translateY(-15px)
+}
+
+
+.card_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.cardescription{
+    text-align: center;
+}
+
+.cardbutton{
+    text-align: center;
+}
+
+
+.enlaces{
+    background: rgb(0, 119, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    background: rgb(6, 207, 207);
+    transition: ease-in-out;
+}
+
+hr{
+    width: 100%;
+    height: 4px;
+    background: rgb(127, 255, 244);
+    border-color: none;
+    margin: 20px 5px;
+}
+
+/*Icono-bot flotante*/
+.container_btn .btn_flotante .btn {
+    background-color: cyan;
+    padding: 15px 25px;
+    border-radius: 100%;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 8px 15px rgb(13, 211, 255);
+}
+/*footer*/
+footer{
+    list-style: none;
+    padding: 40px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,65,1) 35%, rgba(43,80,88,1) 100%);
+    text-align: center;
+}
+
+.footer_ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.footer_ul .fo_link{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer_ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer_ul li .fo_link:hover{
+    opacity: 1;
+}
+
+._marcalogo{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+._marcalogo img{
+    width: 120px;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+/*fin footer*/
