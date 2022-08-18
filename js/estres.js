@@ -133,7 +133,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -146,8 +146,8 @@ image.src = '../img/united-kingdom.png';
 
 
                    /*Parte de document querySelector en Español*/
-                   document.querySelector(".tx1").innerHTML = "Estres";
-                   document.querySelector(".text1").innerHTML = "Que es estres?";
+                   document.querySelector(".tx1").innerHTML = "Estrés";
+                   document.querySelector(".text1").innerHTML = "Que es Estrés?";
                    document.querySelector(".context").innerHTML = "El estrés es la respuesta física o mental a una causa externa, como tener muchas tareas o padecer una enfermedad. Un factor estresante o estresante puede ser algo que ocurre una sola vez o en un corto plazo, o puede ocurrir repetidamente durante mucho tiempo.";
                    document.querySelector("#tx2").innerHTML = "¿Cuáles son los signos o síntomas del estrés?";
                    document.querySelector("#tx3").innerHTML = "El estrés puede causar muchos tipos de síntomas físicos y emocionales. A veces, es posible que no se dé cuenta de que estos síntomas son causados por el estrés. Estas son algunas señales de que el estrés puede estar afectándote:";
@@ -171,7 +171,7 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tx21").innerHTML = "Estresores académicos";
                    document.querySelector("#tx22").innerHTML = "Las exigencias que pueden dar lugar al estrés son de dos tipos:";
                    document.querySelector("#tx23").innerHTML = "Exigencias Internas: es decir, aquellas que nos realizamos nosotros mismos cuando somos muy autoexigentes, tenemos altas expectativas de logro, necesitamos mantener el control y nos esforzamos en ellas, entre otras.";
-                   document.querySelector("#tx24").innerHTML = "Exigencias Externas: es decir, aquellas que nos va presentando nuestro entorno, entre las cuales vale la pena tener que entregar trabajos y realizar pruebas y exámenes en un tiempo limitado; realizar trabajos en grupo; presente frente al curso (disertaciones); no comprender los contenidos tratados en clase; tiempo limitado por obligaciones académicas, entre otros.";
+                   document.querySelector("#tx24").innerHTML = "Exigencias Externas: es decir, aquellas que nos va presentando nuestro entorno, entre las Cuáles vale la pena tener que entregar trabajos y realizar pruebas y exámenes en un tiempo limitado; realizar trabajos en grupo; presente frente al curso (disertaciones); no comprender los contenidos tratados en clase; tiempo limitado por obligaciones académicas, entre otros.";
                    document.querySelector("#tx25").innerHTML = "Estresores no académicos";
                    document.querySelector("#txz").innerHTML = "Además de lo académico, debemos considerar una serie de situaciones de la vida que nos estresan y que también afectan nuestro estado emocional y físico. A continuación se muestra una adaptación de la escala de Holmes y Rahe, con la lista de situaciones estresantes más comunes:";
                    document.querySelector("#tx26").innerHTML = "lesión personal o enfermedad";
@@ -241,14 +241,14 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#cite").innerHTML = "Video gracias a: Video gracias a: Pablo Sánchez Urina en YouTube"
                    document.querySelector("#tx86").innerHTML = "Estres";
                    document.querySelector("#tx87").innerHTML = "Que es el estres?";
-                   document.querySelector("#tx88").innerHTML = "Sintomas del estres ";
+                   document.querySelector("#tx88").innerHTML = "Síntomas  del estres ";
                    document.querySelector("#tx89").innerHTML = "Tipos de estres";
                    document.querySelector("#tx90").innerHTML = "Causas del estres";
                    document.querySelector("#tx91").innerHTML = "Tips para el estres";
                // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
@@ -387,7 +387,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                   localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -400,8 +400,8 @@ image.src = '../img/united-kingdom.png';
 
 
                    /*Parte de document querySelector en Español*/
-                   document.querySelector(".tx1").innerHTML = "Estres";
-                   document.querySelector(".text1").innerHTML = "Que es estres?";
+                   document.querySelector(".tx1").innerHTML = "Estrés";
+                   document.querySelector(".text1").innerHTML = "Que es estrés?";
                    document.querySelector(".context").innerHTML = "El estrés es la respuesta física o mental a una causa externa, como tener muchas tareas o padecer una enfermedad. Un factor estresante o estresante puede ser algo que ocurre una sola vez o en un corto plazo, o puede ocurrir repetidamente durante mucho tiempo.";
                    document.querySelector("#tx2").innerHTML = "¿Cuáles son los signos o síntomas del estrés?";
                    document.querySelector("#tx3").innerHTML = "El estrés puede causar muchos tipos de síntomas físicos y emocionales. A veces, es posible que no se dé cuenta de que estos síntomas son causados por el estrés. Estas son algunas señales de que el estrés puede estar afectándote:";
@@ -425,7 +425,7 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tx21").innerHTML = "Estresores académicos";
                    document.querySelector("#tx22").innerHTML = "Las exigencias que pueden dar lugar al estrés son de dos tipos:";
                    document.querySelector("#tx23").innerHTML = "Exigencias Internas: es decir, aquellas que nos realizamos nosotros mismos cuando somos muy autoexigentes, tenemos altas expectativas de logro, necesitamos mantener el control y nos esforzamos en ellas, entre otras.";
-                   document.querySelector("#tx24").innerHTML = "Exigencias Externas: es decir, aquellas que nos va presentando nuestro entorno, entre las cuales vale la pena tener que entregar trabajos y realizar pruebas y exámenes en un tiempo limitado; realizar trabajos en grupo; presente frente al curso (disertaciones); no comprender los contenidos tratados en clase; tiempo limitado por obligaciones académicas, entre otros.";
+                   document.querySelector("#tx24").innerHTML = "Exigencias Externas: es decir, aquellas que nos va presentando nuestro entorno, entre las Cuáles vale la pena tener que entregar trabajos y realizar pruebas y exámenes en un tiempo limitado; realizar trabajos en grupo; presente frente al curso (disertaciones); no comprender los contenidos tratados en clase; tiempo limitado por obligaciones académicas, entre otros.";
                    document.querySelector("#tx25").innerHTML = "Estresores no académicos";
                    document.querySelector("#txz").innerHTML = "Además de lo académico, debemos considerar una serie de situaciones de la vida que nos estresan y que también afectan nuestro estado emocional y físico. A continuación se muestra una adaptación de la escala de Holmes y Rahe, con la lista de situaciones estresantes más comunes:";
                    document.querySelector("#tx26").innerHTML = "lesión personal o enfermedad";
@@ -493,16 +493,16 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tx84").innerHTML = "Evite pensar obsesivamente en los problemas. Enfócate en lo que has logrado, no en lo que no has podido hacer.";
                    document.querySelector("#tx85").innerHTML = "Hacer ejercicio regularmente. Una caminata moderada de solo 30 minutos por día puede ayudar a levantar el ánimo y reducir el estrés.";
                    document.querySelector("#cite").innerHTML = "Video gracias a: Video gracias a: Pablo Sánchez Urina en YouTube"
-                   document.querySelector("#tx86").innerHTML = "Estres";
-                   document.querySelector("#tx87").innerHTML = "Que es el estres?";
-                   document.querySelector("#tx88").innerHTML = "Sintomas del estres ";
-                   document.querySelector("#tx89").innerHTML = "Tipos de estres";
-                   document.querySelector("#tx90").innerHTML = "Causas del estres";
-                   document.querySelector("#tx91").innerHTML = "Tips para el estres";
+                   document.querySelector("#tx86").innerHTML = "Estrés";
+                   document.querySelector("#tx87").innerHTML = "Que es el Estrés?";
+                   document.querySelector("#tx88").innerHTML = "Síntomas  del Estrés ";
+                   document.querySelector("#tx89").innerHTML = "Tipos de Estrés";
+                   document.querySelector("#tx90").innerHTML = "Causas del Estrés";
+                   document.querySelector("#tx91").innerHTML = "Tips para el Estrés";
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton

@@ -95,7 +95,7 @@ image.src = '../img/united-kingdom.png'
                }
                else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -109,7 +109,7 @@ image.src = '../img/united-kingdom.png'
                   document.querySelector("#first-quote").innerHTML ="La ansiedad";
                   document.querySelector("#second-quote").innerHTML ="¿Qué es la ansiedad?";
                  document.querySelector("#tree-quote").innerHTML ="La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés. Por ejemplo, puede sentirse ansioso cuando se enfrenta a un problema difícil en el trabajo, antes de tomar un examen o antes de tomar una decisión importante. Si bien la ansiedad puede ayudar a enfrentar una situación, además de darle un impulso de energía o ayudarle a concentrarse, para las personas con trastornos de ansiedad el miedo no es temporal y puede ser abrumadora.";
-                 document.querySelector("#problema1").innerHTML ="¿Cuales son los signos o sintomas de la ansiedad?";
+                 document.querySelector("#problema1").innerHTML ="¿Cuáles son los signos o Síntomas de la ansiedad?";
                  document.querySelector("#problema2").innerHTML ="Los signos y síntomas de la ansiedad más comunes incluyen los siguientes:";
                  document.querySelector("#li1").innerHTML ="Sensación de nerviosismo, agitación o tensión";
                  document.querySelector("#li2").innerHTML ="Sensación de peligro inminente, pánico o catástrofe";
@@ -128,7 +128,7 @@ image.src = '../img/united-kingdom.png'
                  document.querySelector("#li14").innerHTML ="El trastorno de ansiedad debido a una enfermedad incluye síntomas de ansiedad o pánico intensos que son directamente causados por un problema de salud físico";
                  document.querySelector("#li15").innerHTML ="El trastorno de ansiedad generalizada se caracteriza por una ansiedad y una preocupación persistentes y excesivas por actividades o eventos, incluso asuntos comunes de rutina. La preocupación es desproporcionada con respecto a la situación actual, es difícil de controlar y afecta la forma en que te sientes físicamente. A menudo sucede junto con otros trastornos de ansiedad o con la depresión.";
                  document.querySelector("#li16").innerHTML ="El trastorno de pánico implica episodios repetidos de sensaciones repentinas de ansiedad y miedo o terror intensos que alcanzan un nivel máximo en minutos (ataques de pánico). Puedes tener sensaciones de una catástrofe inminente, dificultad para respirar, dolor en el pecho o latidos rápidos, fuertes o como aleteos (palpitaciones cardíacas). Estos ataques de pánico pueden provocar que a la persona le preocupe que sucedan de nuevo o que evite situaciones en las que han sucedido.";
-                 document.querySelector("#li17").innerHTML ="El mutismo selectivo es una incapacidad constante que tienen los niños para hablar en ciertas situaciones, como en la escuela, incluso cuando pueden hablar en otras situaciones, como en el hogar con miembros cercanos de la familia. Esto puede afectar el desempeño en la escuela, el trabajo o en la sociedad.";
+                 document.querySelector("#li17").innerHTML ="El mutismo selectivo es una incapacidad constante que tienen, los niños para hablar en ciertas situaciones, como en la escuela, incluso cuando pueden hablar en otras situaciones, como en el hogar con miembros cercanos de la familia. Esto puede afectar el desempeño en la escuela, el trabajo o en la sociedad.";
                  document.querySelector("#li18").innerHTML ="El trastorno de ansiedad por separación es un trastorno de la niñez que se caracteriza por una ansiedad que es excesiva para el nivel de desarrollo del niño y que se relaciona con la separación de los padres u otras personas que cumplen una función paternal";
                  document.querySelector("#li19").innerHTML ="El trastorno de ansiedad social (fobia social) implica altos niveles de ansiedad, miedo o rechazo a situaciones sociales debido a sentimientos de vergüenza, inseguridad y preocupación por ser juzgado o percibido de manera negativa por otras personas";
                  document.querySelector("#li20").innerHTML ="Las fobias específicas se caracterizan por una notable ansiedad cuando la persona se ve expuesta a un objeto o situación específicos, y un deseo por evitarlos. En algunas personas, las fobias provocan ataques de pánico.";
@@ -159,14 +159,14 @@ image.src = '../img/united-kingdom.png'
                   //libreria de problemas
                 document.querySelector("#footer00").innerHTML ="La ansiedad";
                 document.querySelector("#footer1").innerHTML ="¿Qué es la ansiedad?";
-                document.querySelector("#footer2").innerHTML ="Sintomas de la ansiedad";
+                document.querySelector("#footer2").innerHTML ="Síntomas  de la ansiedad";
                 document.querySelector("#footer3").innerHTML ="Tipos de ansiedad";
                 document.querySelector("#footer4").innerHTML ="Causas de la ansiedad";
                 document.querySelector("#footer5").innerHTML ="Tips para la ansiedad";
                  // footer
                  document.querySelector("#fo1").innerHTML = "Home"
                  document.querySelector("#fo2").innerHTML = "Sobre nosotross"
-                 document.querySelector("#fo3").innerHTML = "Psicologos"
+                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                  document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                  document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                  // checkedbutton
@@ -266,7 +266,7 @@ image.src = '../img/united-kingdom.png'
 
                 }
                 else{
-                    document.querySelector("#link1").innerHTML = "Psicologos";
+                    document.querySelector("#link1").innerHTML = "Psicólogos";
                     document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                     document.querySelector("#link3").innerHTML = "Blog";
                     document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -280,7 +280,7 @@ image.src = '../img/united-kingdom.png'
                     document.querySelector("#first-quote").innerHTML ="La ansiedad";
                     document.querySelector("#second-quote").innerHTML ="¿Qué es la ansiedad?";
                     document.querySelector("#tree-quote").innerHTML ="La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés. Por ejemplo, puede sentirse ansioso cuando se enfrenta a un problema difícil en el trabajo, antes de tomar un examen o antes de tomar una decisión importante. Si bien la ansiedad puede ayudar a enfrentar una situación, además de darle un impulso de energía o ayudarle a concentrarse, para las personas con trastornos de ansiedad el miedo no es temporal y puede ser abrumadora.";
-                    document.querySelector("#problema1").innerHTML ="¿Cuales son los signos o sintomas de la ansiedad?";
+                    document.querySelector("#problema1").innerHTML ="¿Cuáles son los signos o síntomas  de la ansiedad?";
                     document.querySelector("#problema2").innerHTML ="Los signos y síntomas de la ansiedad más comunes incluyen los siguientes:";
                     document.querySelector("#li1").innerHTML ="Sensación de nerviosismo, agitación o tensión";
                     document.querySelector("#li2").innerHTML ="Sensación de peligro inminente, pánico o catástrofe";
@@ -299,7 +299,7 @@ image.src = '../img/united-kingdom.png'
                     document.querySelector("#li14").innerHTML ="El trastorno de ansiedad debido a una enfermedad incluye síntomas de ansiedad o pánico intensos que son directamente causados por un problema de salud físico";
                     document.querySelector("#li15").innerHTML ="El trastorno de ansiedad generalizada se caracteriza por una ansiedad y una preocupación persistentes y excesivas por actividades o eventos, incluso asuntos comunes de rutina. La preocupación es desproporcionada con respecto a la situación actual, es difícil de controlar y afecta la forma en que te sientes físicamente. A menudo sucede junto con otros trastornos de ansiedad o con la depresión.";
                     document.querySelector("#li16").innerHTML ="El trastorno de pánico implica episodios repetidos de sensaciones repentinas de ansiedad y miedo o terror intensos que alcanzan un nivel máximo en minutos (ataques de pánico). Puedes tener sensaciones de una catástrofe inminente, dificultad para respirar, dolor en el pecho o latidos rápidos, fuertes o como aleteos (palpitaciones cardíacas). Estos ataques de pánico pueden provocar que a la persona le preocupe que sucedan de nuevo o que evite situaciones en las que han sucedido.";
-                    document.querySelector("#li17").innerHTML ="El mutismo selectivo es una incapacidad constante que tienen los niños para hablar en ciertas situaciones, como en la escuela, incluso cuando pueden hablar en otras situaciones, como en el hogar con miembros cercanos de la familia. Esto puede afectar el desempeño en la escuela, el trabajo o en la sociedad.";
+                    document.querySelector("#li17").innerHTML ="El mutismo selectivo es una incapacidad constante que tienen, los niños para hablar en ciertas situaciones, como en la escuela, incluso cuando pueden hablar en otras situaciones, como en el hogar con miembros cercanos de la familia. Esto puede afectar el desempeño en la escuela, el trabajo o en la sociedad.";
                     document.querySelector("#li18").innerHTML ="El trastorno de ansiedad por separación es un trastorno de la niñez que se caracteriza por una ansiedad que es excesiva para el nivel de desarrollo del niño y que se relaciona con la separación de los padres u otras personas que cumplen una función paternal";
                     document.querySelector("#li19").innerHTML ="El trastorno de ansiedad social (fobia social) implica altos niveles de ansiedad, miedo o rechazo a situaciones sociales debido a sentimientos de vergüenza, inseguridad y preocupación por ser juzgado o percibido de manera negativa por otras personas";
                     document.querySelector("#li20").innerHTML ="Las fobias específicas se caracterizan por una notable ansiedad cuando la persona se ve expuesta a un objeto o situación específicos, y un deseo por evitarlos. En algunas personas, las fobias provocan ataques de pánico.";
@@ -330,14 +330,14 @@ image.src = '../img/united-kingdom.png'
                     //aside
                     document.querySelector("#footer00").innerHTML ="La ansiedad";
                     document.querySelector("#footer1").innerHTML ="¿Qué es la ansiedad?";
-                    document.querySelector("#footer2").innerHTML ="Sintomas de la ansiedad";
+                    document.querySelector("#footer2").innerHTML ="Síntomas  de la ansiedad";
                     document.querySelector("#footer3").innerHTML ="Tipos de ansiedad";
                     document.querySelector("#footer4").innerHTML ="Causas de la ansiedad";
                     document.querySelector("#footer5").innerHTML ="Tips para la ansiedad";
                     // footer
                     document.querySelector("#fo1").innerHTML = "Home"
                     document.querySelector("#fo2").innerHTML = "Sobre nosotross"
-                    document.querySelector("#fo3").innerHTML = "Psicologos"
+                    document.querySelector("#fo3").innerHTML = "Psicólogos"
                     document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                     document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                     // checkedbutton

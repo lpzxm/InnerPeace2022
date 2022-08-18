@@ -131,7 +131,7 @@ image.src = '../img/united-kingdom.png';
                 }
                 else{
                     localStorage.setItem("idioma", "es")
-                    document.querySelector("#link1").innerHTML = "Psicologos";
+                    document.querySelector("#link1").innerHTML = "Psicólogos";
                     document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                     document.querySelector("#link3").innerHTML = "Blog";
                     document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -233,14 +233,14 @@ image.src = '../img/united-kingdom.png';
                       //libreria de problemas
                       document.querySelector("#footer00").innerHTML ="Depresion";
                       document.querySelector("#footer1").innerHTML ="¿Qué es la depresión?";
-                      document.querySelector("#footer2").innerHTML ="Sintomas de la depresión";
+                      document.querySelector("#footer2").innerHTML ="síntomas  de la depresión";
                       document.querySelector("#footer3").innerHTML ="Tipos de depresión";
                       document.querySelector("#footer4").innerHTML ="Causas de la depresión";
                       document.querySelector("#footer5").innerHTML ="Tips para la depresión";
                       // footer
                       document.querySelector("#fo1").innerHTML = "Home"
                       document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                      document.querySelector("#fo3").innerHTML = "Psicologos"
+                      document.querySelector("#fo3").innerHTML = "Psicólogos"
                       document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                       document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                       // checkedbutton
@@ -376,7 +376,7 @@ image.src = '../img/united-kingdom.png';
                 }
                 else{
                     localStorage.setItem("idioma", "es")
-                    document.querySelector("#link1").innerHTML = "Psicologos";
+                    document.querySelector("#link1").innerHTML = "Psicólogos";
                     document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                     document.querySelector("#link3").innerHTML = "Blog";
                     document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -478,7 +478,7 @@ image.src = '../img/united-kingdom.png';
                       //libreria de problemas
                       document.querySelector("#footer00").innerHTML ="Depresion";
                       document.querySelector("#footer1").innerHTML ="¿Qué es la depresión?";
-                      document.querySelector("#footer2").innerHTML ="Sintomas de la depresión";
+                      document.querySelector("#footer2").innerHTML ="Síntomas  de la depresión";
                       document.querySelector("#footer3").innerHTML ="Tipos de depresión";
                       document.querySelector("#footer4").innerHTML ="Causas de la depresión";
                       document.querySelector("#footer5").innerHTML ="Tips para la depresión";

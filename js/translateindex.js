@@ -68,7 +68,7 @@
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas Frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -83,10 +83,10 @@
                 document.querySelector("#pal2").innerHTML = "a la pagina de salesianidad mental";
                 // document.querySelector("#contenido1").innerHTML = "Bienvenido a la pagina de salesianidad mental"
                 document.querySelector("#contenido2").innerHTML = "Mi satisfacción es verte alegre - Don Bosco"
-                document.querySelector("#boton1").innerHTML = "Vamos!"
+                document.querySelector("#boton1").innerHTML = "¡Vamos!"
                 // Servicios psicologicos cards}
                 // Ansiedadcard
-                document.querySelector("#title1").innerHTML = "Servicios de psicologia que tratamos"
+                document.querySelector("#title1").innerHTML = "Servicios de psicología que tratamos"
                 document.querySelector("#ansiedad").innerHTML = "Ansiedad"
                 document.querySelector("#ansiedad_ask").innerHTML = "¿Qué es la Ansiedad?"
                 document.querySelector("#ansiedad_info").innerHTML = "La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés. Por ejemplo, puede sentirse ansioso cuando se enfrenta a un problema difícil en el trabajo, antes de tomar un examen, etc."
@@ -113,7 +113,7 @@
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio";
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros";
-                document.querySelector("#fo3").innerHTML = "Psicologos";
+                document.querySelector("#fo3").innerHTML = "Psicólogos";
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
@@ -179,7 +179,7 @@
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas Frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -194,10 +194,10 @@
                 document.querySelector("#pal2").innerHTML = "a la pagina de salesianidad mental";
                 // document.querySelector("#contenido1").innerHTML = "Bienvenido a la pagina de salesianidad mental"
                 document.querySelector("#contenido2").innerHTML = "Mi satisfacción es verte alegre - Don Bosco"
-                document.querySelector("#boton1").innerHTML = "Vamos!"
+                document.querySelector("#boton1").innerHTML = "¡Vamos!"
                 // Servicios psicologicos cards}
                 // Ansiedadcard
-                document.querySelector("#title1").innerHTML = "Servicios de psicologia que tratamos"
+                document.querySelector("#title1").innerHTML = "Servicios de psicología que tratamos"
                 document.querySelector("#ansiedad").innerHTML = "Ansiedad"
                 document.querySelector("#ansiedad_ask").innerHTML = "¿Qué es la Ansiedad?"
                 document.querySelector("#ansiedad_info").innerHTML = "La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés. Por ejemplo, puede sentirse ansioso cuando se enfrenta a un problema difícil en el trabajo, antes de tomar un examen, etc."

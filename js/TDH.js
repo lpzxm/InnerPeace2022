@@ -69,7 +69,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -83,7 +83,7 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tex1").innerHTML = "Falta de atención";
                    document.querySelector("#tex2").innerHTML = "¿Qué es el TDH?";
                    document.querySelector("#tex3").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.";
-                   document.querySelector("#tex4").innerHTML = "¿Cuales son los signos o sintomas del TDH?";
+                   document.querySelector("#tex4").innerHTML = "¿Cuáles son los signos o síntomas  del TDH?";
                    document.querySelector("#tex5").innerHTML = "Algunas personas con TDAH tienen menos síntomas a medida que envejecen, pero algunos adultos siguen teniendo síntomas importantes que interfieren en su vida diaria. En el caso de los adultos, algunas de las características principales del TDAH pueden ser dificultad para prestar atención, impulsividad e inquietud. Los síntomas pueden oscilar entre leves y graves.";
                    document.querySelector("#tex6").innerHTML = "Muchos adultos con TDAH no saben que lo tienen; solo saben que las tareas cotidianas pueden resultarles difíciles. Los adultos con TDAH pueden tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas límite y se olviden de reuniones o eventos sociales. La incapacidad para controlar los impulsos puede oscilar entre tener impaciencia al esperar en una fila o al conducir con mucho tránsito, y tener cambios de humor y arrebatos de ira. Algunos de los síntomas del TDAH en adultos son los siguientes:";
                    document.querySelector("#tex7").innerHTML = "Impulsividad";
@@ -113,7 +113,7 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#cite").innerHTML = "Video gracias a: Psycho2go"
                    document.querySelector("#aside_tit").innerHTML = "Falta de atención"
                    document.querySelector("#tex28").innerHTML = "¿Qué es el TDH?";
-                   document.querySelector("#tex29").innerHTML = "Sintomas del TDH";
+                   document.querySelector("#tex29").innerHTML = "Síntomas  del TDH";
                    document.querySelector("#tex30").innerHTML = "Tipos de TDH";
                    document.querySelector("#tex31").innerHTML = "Causas del TDH";
                    document.querySelector("#tex32").innerHTML = "Tips para tratar el TDH";
@@ -121,7 +121,7 @@ image.src = '../img/united-kingdom.png';
                // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
@@ -197,7 +197,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                   localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -211,7 +211,7 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tex1").innerHTML = "Falta de atención";
                    document.querySelector("#tex2").innerHTML = "¿Qué es el TDH?";
                    document.querySelector("#tex3").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.";
-                   document.querySelector("#tex4").innerHTML = "¿Cuales son los signos o sintomas del TDH?";
+                   document.querySelector("#tex4").innerHTML = "¿Cuáles son los signos o síntomas  del TDH?";
                    document.querySelector("#tex5").innerHTML = "Algunas personas con TDAH tienen menos síntomas a medida que envejecen, pero algunos adultos siguen teniendo síntomas importantes que interfieren en su vida diaria. En el caso de los adultos, algunas de las características principales del TDAH pueden ser dificultad para prestar atención, impulsividad e inquietud. Los síntomas pueden oscilar entre leves y graves.";
                    document.querySelector("#tex6").innerHTML = "Muchos adultos con TDAH no saben que lo tienen; solo saben que las tareas cotidianas pueden resultarles difíciles. Los adultos con TDAH pueden tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas límite y se olviden de reuniones o eventos sociales. La incapacidad para controlar los impulsos puede oscilar entre tener impaciencia al esperar en una fila o al conducir con mucho tránsito, y tener cambios de humor y arrebatos de ira. Algunos de los síntomas del TDAH en adultos son los siguientes:";
                    document.querySelector("#tex7").innerHTML = "Impulsividad";
@@ -246,7 +246,7 @@ image.src = '../img/united-kingdom.png';
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton

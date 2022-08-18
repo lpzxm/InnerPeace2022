@@ -92,7 +92,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -153,10 +153,10 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector(".context18").innerHTML = "En sus primeros años en la escuela secundaria, le costaba entender las instrucciones para hacer el mejor trabajo posible.";
                    document.querySelector(".context19").innerHTML = "Falta de atención"
                    document.querySelector(".more1").innerHTML = "Leer mas sobre...";
-                   document.querySelector(".more2").innerHTML = "Que es estres?";
+                   document.querySelector(".more2").innerHTML = "Que es Estrés?";
                    document.querySelector(".leer4").innerHTML = "Leer mas";
                    document.querySelector(".leer5").innerHTML = "Leer mas";
-                   document.querySelector(".more2").innerHTML = "Que es el estres?";
+                   document.querySelector(".more2").innerHTML = "Que es el Estrés?";
                    document.querySelector(".more3").innerHTML = "Que es la ansiedad?";
                    document.querySelector(".more4").innerHTML = "Que es depresion?";
                    document.querySelector(".more5").innerHTML = "Que es TDH?";
@@ -164,7 +164,7 @@ image.src = '../img/united-kingdom.png';
                // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
@@ -321,10 +321,10 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector(".context18").innerHTML = "En sus primeros años en la escuela secundaria, le costaba entender las instrucciones para hacer el mejor trabajo posible.";
                    document.querySelector(".context19").innerHTML = "Falta de atención"
                    document.querySelector(".more1").innerHTML = "Leer mas sobre...";
-                   document.querySelector(".more2").innerHTML = "Que es estres?";
+                   document.querySelector(".more2").innerHTML = "Que es Estrés?";
                    document.querySelector(".leer4").innerHTML = "Leer mas";
                    document.querySelector(".leer5").innerHTML = "Leer mas";
-                   document.querySelector(".more2").innerHTML = "Que es el estres?";
+                   document.querySelector(".more2").innerHTML = "Que es el Estrés?";
                    document.querySelector(".more3").innerHTML = "Que es la ansiedad?";
                    document.querySelector(".more4").innerHTML = "Que es depresion?";
                    document.querySelector(".more5").innerHTML = "Que es TDH?";
@@ -332,7 +332,7 @@ image.src = '../img/united-kingdom.png';
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton

@@ -44,7 +44,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -70,7 +70,7 @@ image.src = '../img/united-kingdom.png';
                // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotross"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
@@ -118,7 +118,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                   localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -141,7 +141,7 @@ image.src = '../img/united-kingdom.png';
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotross"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton

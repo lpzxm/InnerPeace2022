@@ -44,7 +44,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -55,17 +55,17 @@ image.src = '../img/united-kingdom.png';
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
                 // title
-                document.querySelector("#psico-title").innerHTML = "Psicologos a la orden"
-                document.querySelector("#psico-desc").innerHTML = "El Colegio Don Bosco cuenta con estos psicologos a tu disponibilidad y a tu alcance."
-                document.querySelector("#work1").innerHTML = "Psicologo"
-                document.querySelector("#work2").innerHTML = "Psicologo"
-                document.querySelector("#work3").innerHTML = "Psicologo"
-                document.querySelector("#work4").innerHTML = "Psicologo"
-                document.querySelector("#work5").innerHTML = "Psicologo"
+                document.querySelector("#psico-title").innerHTML = "Psicólogos a la orden"
+                document.querySelector("#psico-desc").innerHTML = "El Colegio Don Bosco cuenta con estos psicólogos a tu disponibilidad y a tu alcance."
+                document.querySelector("#work1").innerHTML = "Psicólogo"
+                document.querySelector("#work2").innerHTML = "Psicólogo"
+                document.querySelector("#work3").innerHTML = "Psicólogo"
+                document.querySelector("#work4").innerHTML = "Psicólogo"
+                document.querySelector("#work5").innerHTML = "Psicólogo"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
@@ -108,7 +108,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#link1").innerHTML = "Psicologos";
+                document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
                 document.querySelector("#link3").innerHTML = "Blog";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
@@ -120,16 +120,16 @@ image.src = '../img/united-kingdom.png';
                 }
                 // title
                 document.querySelector("#psico-title").innerHTML = "Psicologos a la orden"
-                document.querySelector("#psico-desc").innerHTML = "El Colegio Don Bosco cuenta con estos psicologos a tu disponibilidad y a tu alcance."
-                document.querySelector("#work1").innerHTML = "Psicologo"
-                document.querySelector("#work2").innerHTML = "Psicologo"
-                document.querySelector("#work3").innerHTML = "Psicologo"
-                document.querySelector("#work4").innerHTML = "Psicologo"
-                document.querySelector("#work5").innerHTML = "Psicologo"
+                document.querySelector("#psico-desc").innerHTML = "El Colegio Don Bosco cuenta con estos psicólogos a tu disponibilidad y a tu alcance."
+                document.querySelector("#work1").innerHTML = "Psicólogo"
+                document.querySelector("#work2").innerHTML = "Psicólogo"
+                document.querySelector("#work3").innerHTML = "Psicólogo"
+                document.querySelector("#work4").innerHTML = "Psicólogo"
+                document.querySelector("#work5").innerHTML = "Psicólogo"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
                 document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
                 // checkedbutton
