@@ -18,6 +18,7 @@ if (!empty($_POST["iniciar"])) {
             else {
                 $_SESSION["id"]=$datos->id;
                 $_SESSION["usuario"]=$datos->Correo_electronico;
+                $_SESSION["user"]=$datos->Nombre;
                 header("location: Home.php");
             }
         }

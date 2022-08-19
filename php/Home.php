@@ -19,8 +19,8 @@ function salidaBtn(){
 }
 
 function retonarName(){
-    if (isset($_SESSION["usuario"])){
-        return $_SESSION["usuario"];
+    if (isset($_SESSION["user"])){
+        return $_SESSION["user"];
     }
 }
 
@@ -116,7 +116,7 @@ function traducir(){
             <figure>
                 <div class="capa">
                     <div class="contenido">
-                        <h1><span id="pal1">Bienvenido</span>  <?=retonarName();?> <span id="pal2">a la pagina de salesianidad mental</span></h1>
+                        <h1><span id="pal1">Bienvenido/a</span>  <?=retonarName();?> <span id="pal2">a la pagina de salesianidad mental</span></h1>
                         <p id="contenido2">"Mi satisfacción es verte alegre - Don Bosco"</p>
                         <a href="../php/InicioSesion copy.php" class="button <?=salidaBtn(); ?>" id="boton1">Vamos!</a>
                     </div>

@@ -136,7 +136,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#label2").innerHTML = "¿Cuál es nuestra intención principal?"
                 document.querySelector("#label_desc2").innerHTML = "Nuestra intención principal es dar una mano a los jovenes que sufren de padecimientos psicologicos ante el Estrés estudiantil."
                 document.querySelector("#label3").innerHTML = "¿Qué información proporcionamos?"
-                document.querySelector("#label_desc3").innerHTML = "En nuestra página web, proporcionamos información acerca de los padecimientos mpas comunes en los jovenes y soluciones interactivas al alcance de la mano, también contamos con un blog con temas variados para responder cualquier duda que tú tengas."
+                document.querySelector("#label_desc3").innerHTML = "En nuestra página web, proporcionamos información acerca de los padecimientos más comunes en los jovenes y soluciones interactivas al alcance de la mano, también contamos con un blog con temas variados para responder cualquier duda que tú tengas."
                 document.querySelector("#label4").innerHTML = "¿Qué es o para qué es el icono de bot que aparece en mi pantalla?"
                 document.querySelector("#label_desc4").innerHTML = "El icono que aparece al lado derecho de tu pantalla, si, es un bot. Se llama PeaceBot, este sera tu asistente personal, con el cual podras interactuar, de amigo a amigo, aconsejandote de la mejor manera."
                 // footer
