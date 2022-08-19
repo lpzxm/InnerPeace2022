@@ -213,7 +213,7 @@ image.src = '../img/united-kingdom.png';
                       document.querySelector("#li27").innerHTML ="Asegurarse de que tenga un medio de transporte para ir a sus citas de psicoterapia.";
                       document.querySelector("#li28").innerHTML ="Recordarle que la depresión desaparecerá con el tiempo y el tratamiento.";
                       document.querySelector("#problema39").innerHTML="Importante:Tome en serio los comentarios sobre el suicidio y notifíquelos al proveedor de atención médica o terapeuta de su ser querido. Si está en peligro inmediato o está pensando en hacerse daño, llame a los servicios de emergencia al 911 o diríjase a la sala de emergencias del hospital más cercano.";
-                      document.querySelector("#problema40").innerHTML="Dinammicas para superar la depresion";
+                      document.querySelector("#problema40").innerHTML="Dinamicas para superar la depresion";
                       document.querySelector("#problema41").innerHTML="Sal de la cama, a la hora de mejorar la depresión es de vital importancia permanecer activo, aunque  en la depresión es difícil enfrentarse al  día a día, el simple hecho de salir de la cama y afrontar las actividades cotidianas, hará que te sientas más capacitado, competente y mejorará tu estado de ánimo.";
                       document.querySelector("#problema42").innerHTML="Realiza actividades que antes de tu depresión te satisfacían. Uno de los síntomas  de la depresión es la anhedonía, es decir, la incapacidad para disfrutar plenamente de las actividades, lo que lleva a la persona a la inactividad y a retroalimentar la depresión, por tanto el hacer actividades agradables te ayudará a mejorar y a alcanzar cierta satisfacción y mejorará tu estado de ánimo. También puedes añadir nuevas tareas que podrías ejecutar en solitario o acompañado y que has ido dejando por falta de tiempo, pereza u otras causas.";
                       document.querySelector("#problema43").innerHTML="Realiza ejercicio físico, no hace falta que hagas ejercicio físico como si fueras un deportista de élite, haz ejercicio conforme a tus posibilidades físicas (caminar, natación, gimnasia de mantenimiento, pilates, yoga...). cuando realizamos deporte segragamos endorfinas, sustancia que influye positivamente en el estado de ánimo, relaja favoreciendo el descanso nocturno y te sentirás más vital.";
@@ -458,7 +458,7 @@ image.src = '../img/united-kingdom.png';
                       document.querySelector("#li27").innerHTML ="Asegurarse de que tenga un medio de transporte para ir a sus citas de psicoterapia.";
                       document.querySelector("#li28").innerHTML ="Recordarle que la depresión desaparecerá con el tiempo y el tratamiento.";
                       document.querySelector("#problema39").innerHTML="Importante:Tome en serio los comentarios sobre el suicidio y notifíquelos al proveedor de atención médica o terapeuta de su ser querido. Si está en peligro inmediato o está pensando en hacerse daño, llame a los servicios de emergencia al 911 o diríjase a la sala de emergencias del hospital más cercano.";
-                      document.querySelector("#problema40").innerHTML="Dinammicas para superar la depresion";
+                      document.querySelector("#problema40").innerHTML="Dinamicas para superar la depresion";
                       document.querySelector("#problema41").innerHTML="Sal de la cama, a la hora de mejorar la depresión es de vital importancia permanecer activo, aunque  en la depresión es difícil enfrentarse al  día a día, el simple hecho de salir de la cama y afrontar las actividades cotidianas, hará que te sientas más capacitado, competente y mejorará tu estado de ánimo.";
                       document.querySelector("#problema42").innerHTML="Realiza actividades que antes de tu depresión te satisfacían. Uno de los síntomas  de la depresión es la anhedonía, es decir, la incapacidad para disfrutar plenamente de las actividades, lo que lleva a la persona a la inactividad y a retroalimentar la depresión, por tanto el hacer actividades agradables te ayudará a mejorar y a alcanzar cierta satisfacción y mejorará tu estado de ánimo. También puedes añadir nuevas tareas que podrías ejecutar en solitario o acompañado y que has ido dejando por falta de tiempo, pereza u otras causas.";
                       document.querySelector("#problema43").innerHTML="Realiza ejercicio físico, no hace falta que hagas ejercicio físico como si fueras un deportista de élite, haz ejercicio conforme a tus posibilidades físicas (caminar, natación, gimnasia de mantenimiento, pilates, yoga...). cuando realizamos deporte segragamos endorfinas, sustancia que influye positivamente en el estado de ánimo, relaja favoreciendo el descanso nocturno y te sentirás más vital.";
@@ -495,7 +495,6 @@ image.src = '../img/united-kingdom.png';
                 }
             }
         }
-    
 
 
 
