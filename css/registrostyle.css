@@ -159,9 +159,6 @@ body {
     margin-bottom: 20px;
     font: 14px/20px "Open Sans", Arial, sans-serif;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
   }
   .checkbox-circle input[type="checkbox"]:hover + label:hover {
     color: rgb(23, 86, 228);

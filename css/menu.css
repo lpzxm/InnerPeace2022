@@ -19,7 +19,7 @@ nav{
 }
 
 .logo{
-    width: 400px;
+    width: 380px;
 }
 
 .login{
@@ -36,7 +36,7 @@ nav{
     cursor: pointer;
     text-transform: uppercase;
     transition: .3s ease all;
-    border-radius: 6px;
+    border-radius: 16px;
     position: relative;
     overflow: hidden;
 }
@@ -95,7 +95,7 @@ nav ul li a{
     color: black;
     font-size: 20px;
     padding: 7px 25px;
-    border-radius: 4px;
+    border-radius: 16px;
 }
 
 nav ul li ul{

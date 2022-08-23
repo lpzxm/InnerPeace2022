@@ -3,8 +3,7 @@
 footer{
     list-style: none;
     padding: 40px 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,52,65,1) 35%, rgba(43,80,88,1) 100%);
+    background: rgb(3, 2, 20);
     /* text-align: center; */
 }
 

@@ -56,7 +56,7 @@ body{
     padding: 9px 20px;
     text-transform: uppercase;
     border: 2px solid #fff;
-    border-radius: 3px;
+    border-radius: 5px;
     transition: all .3s ease-in-out;
     width: 150px;
 }
@@ -80,10 +80,9 @@ body{
 
 hr{
     margin-top: 25px;
-    height: 8px;
+    height: 3px;
     border: none;
-    color: cyan;
-    background: cyan;
+    background: rgb(94, 102, 139);
     border-color: none;
     
 }
@@ -187,7 +186,7 @@ hr{
 /*fin tarjetas*/
 /*intencion*/
 .intencion{
-    background: rgb(1, 1, 120);
+    background: rgba(44,34,195,1);
     height: 700px;
     margin-top: 80px;
     padding: 1px ;
