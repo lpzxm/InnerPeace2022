@@ -39,6 +39,6 @@
       <label for="translate" class="trans"></label>
     </div>
   </body>
-  <script src="../js/inicioSesion.js"></script>
+  <script src="../js/Translate/inicioSesion.js"></script>
   <script src="../js/password.js"></script>
 </html>

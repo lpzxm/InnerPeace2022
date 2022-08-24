@@ -36,6 +36,6 @@
 		
 	</main>
      <!-- translate js -->
-     <script src="../js/privacidad.js"></script>
+     <script src="../js/Translate/privacidad.js"></script>
 </body>
 </html>

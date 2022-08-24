@@ -243,9 +243,7 @@ function traducir(){
 
     
     <!-- Script translate -->
-   <script src="../js/ansiedad.js"></script>
+   <script src="../js/Translate/ansiedad.js"></script>
  
-    <!-- Chatbot script -->
-    <script src="../js/Chatbot.js"></script>
 </body>
 </html>

@@ -257,9 +257,8 @@ function traducir(){
     </footer>
     
     <!-- Script translate -->
-  <script src="../js/estres.js"></script>
+  <script src="../js/Translate/estres.js"></script>
 
-   <!-- Chatbot script -->
-   <script src="../js/Chatbot.js"></script>
+
 </body>
 </html>

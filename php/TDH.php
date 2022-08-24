@@ -183,11 +183,6 @@ function traducir(){
          </div>
     </footer>
     <!-- Script translate -->
-  <script src="../js/TDH.js"></script>
-
-   <!-- Chatbot script -->
-   <script src="../js/Chatbot.js"></script>
-
-    
+  <script src="../js/Translate/TDH.js"></script>
 </body>
 </html>

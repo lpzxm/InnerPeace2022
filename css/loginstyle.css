@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(3, 166, 168);
-    background: linear-gradient(183deg, rgb(11, 26, 240) 0%, rgb(95, 209, 238) 100%);
+    background: url(../img/back_formm.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
     font-family: sans-serif;
     height: 100vh;
   }
@@ -108,9 +109,6 @@ body {
     margin-bottom: 20px;
     font: 14px/20px "Open Sans", Arial, sans-serif;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
   }
   .checkbox-circle input[type="checkbox"]:hover + label:hover {
     color: rgb(23, 86, 228);

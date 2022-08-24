@@ -212,10 +212,8 @@ function traducir(){
     </footer>
 
   <!-- Script translate -->
-  <script src="../js/translateblog.js"></script>
+  <script src="../js/Translate/translateblog.js"></script>
 
-   <!-- Chatbot script -->
-   <script src="../js/Chatbot.js"></script>
-    
+
 </body>
 </html>

@@ -266,13 +266,10 @@ function traducir(){
     </footer>
 
    <!-- Script translate -->
-   <script src="../js/translateindex.js"></script>
-
-   <!-- Chatbot script -->
-   <script src="../js/Chatbot.js"></script>
+   <script src="../js/Translate/translateindex.js"></script>
 
    <!--slider -->
-   <script src="../js/slider1.js"></script>
+   <script src="../js/Translate/slider1.js"></script>
 
 </body>
 </html>

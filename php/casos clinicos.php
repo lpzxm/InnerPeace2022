@@ -205,10 +205,8 @@ function traducir(){
 
     
     <!-- Script translate -->
-   <script src="../js/casoclinico.js"></script>
+   <script src="../js/Translate/casoclinico.js"></script>
 
-    <!-- Chatbot script -->
-    <script src="../js/Chatbot.js"></script>
- 
+
 </body>
 </html>

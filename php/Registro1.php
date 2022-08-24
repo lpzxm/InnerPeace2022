@@ -117,6 +117,6 @@
     </div>
 
   </body>
-  <script src="../js/registro.js"></script>
+  <script src="../js/Translate/registro.js"></script>
   <script src="../js/password.js"></script>
 </html>

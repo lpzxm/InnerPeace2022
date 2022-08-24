@@ -28,7 +28,7 @@
 		
 	</main>
      <!-- translate js -->
-     <script src="../js/Racceso.js"></script>
+     <script src="../js/Translate/Racceso.js"></script>
 
 </body>
 </html>

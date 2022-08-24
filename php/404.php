@@ -53,7 +53,7 @@
     <label for="translate" class="trans"></label>
   </div>
 
-  <script src="../js/404.js"></script>
+  <script src="../js/Translate/404.js"></script>
 
 </body>
 </html>

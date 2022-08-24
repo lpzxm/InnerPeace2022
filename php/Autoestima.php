@@ -190,10 +190,9 @@ function traducir(){
 
     
     <!-- Script translate -->
-   <script src="../js/autoestima.js"></script>
+   <script src="../js/Translate/autoestima.js"></script>
 
-    <!-- Chatbot script -->
-    <script src="../js/Chatbot.js"></script>
+
  
 </body>
 </html>

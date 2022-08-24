@@ -147,6 +147,6 @@ function traducir(){
     </footer>
 
   <!-- translate js -->
-  <script src="../js/translateFAQ.js"></script>
+  <script src="../js/Translate/translateFAQ.js"></script>
 </body>
 </html>

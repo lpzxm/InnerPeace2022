@@ -1,10 +1,8 @@
 <?php
-include ("../php/cn.php");
+include ("../php/auth/db.php");
 $usuarios = "SELECT * FROM datos_estudiante"
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +10,6 @@ $usuarios = "SELECT * FROM datos_estudiante"
   <meta charset="UTF-8" />
   <title>Dashbord</title>
   <link rel="stylesheet" href="../css/diseño D.css" />
-  <!-- Font Awesome Cdn Link -->
-
 </head>
 <body>
   <div class="container">
@@ -57,7 +53,7 @@ $usuarios = "SELECT * FROM datos_estudiante"
             </thead>
 
             <?php
-            $resultado = mysqli_query($conexion,$usuarios);
+            $resultado = mysqli_query($con,$usuarios);
             
             while($row = mysqli_fetch_assoc($resultado)){ ?>
             <tbody>

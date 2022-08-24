@@ -156,7 +156,7 @@ function traducir(){
 
     
     
-    <script src="../js/app.js"></script>
+    <script src="../js/Translate/app.js"></script>
         
 </body>
 

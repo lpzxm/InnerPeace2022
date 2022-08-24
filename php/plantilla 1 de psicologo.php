@@ -144,9 +144,7 @@ function traducir(){
          </div>
     </footer>
         <!-- Script translate -->
-  <script src="../js/plantilla_psicologos.js"></script>
+  <script src="../js/Translate/plantilla_psicologos.js"></script>
 
-   <!-- Chatbot script -->
-   <script src="../js/Chatbot.js"></script>
-    </body>
+</body>
 </html>

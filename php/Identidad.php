@@ -160,6 +160,6 @@ function traducir(){
          </div>
     </footer>
 	<!-- translate script	 -->
-	<script src="../js/translateidentidad.js"></script>
+	<script src="../js/Translate/translateidentidad.js"></script>
 </body>
 </html>

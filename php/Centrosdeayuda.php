@@ -176,6 +176,6 @@ function traducir(){
          </div>
     </footer>
     <!-- Script translate -->
- <script src="../js/centrosAyuda.js"></script>
+ <script src="../js/Translate/centrosAyuda.js"></script>
 </body>
 </html>

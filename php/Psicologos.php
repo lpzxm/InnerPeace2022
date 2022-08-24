@@ -197,9 +197,6 @@ function traducir(){
     </footer>
 
     <!-- translate script -->
-    <script src="../js/translatepsicologos.js"></script>
-
-     <!-- Chatbot script -->
-   <script src="../js/Chatbot.js"></script>
+    <script src="../js/Translate/translatepsicologos.js"></script>
 </body>
 </html>
