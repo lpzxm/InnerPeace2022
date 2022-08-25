@@ -54,7 +54,7 @@ article::before{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: rgb(58, 113, 190);
 }
 
 article h1{
@@ -121,4 +121,12 @@ article img{
 .container-aside aside button:hover{
     opacity: 0.9;
 }
+
+blockquote {
+    margin: 20px 0 30px;
+    border-left: 5px solid;
+    padding-left: 20px;
+    border-color: rgb(58, 113, 190);
+}
+
   

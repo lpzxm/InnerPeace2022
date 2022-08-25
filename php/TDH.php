@@ -86,7 +86,7 @@ function traducir(){
             <h1 id="tex1">Falta de atención</h1>
             <a name="que es"><h2 id="tex2">¿Qué es el TDH?</h2></a>
             <p class="context" id="tex3">El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.</p>
-            <a name="signos"><h2 id="tex4">¿Cuales son los signos o sintomas del TDH?</h2></a>
+            <blockquote><a name="signos"><h2 id="tex4">¿Cuales son los signos o sintomas del TDH?</h2></a></blockquote>
             <p id="tex5">Algunas personas con TDAH tienen menos síntomas a medida que envejecen, pero algunos adultos siguen teniendo síntomas importantes que interfieren en su vida diaria. En el caso de los adultos, algunas de las características principales del TDAH pueden ser dificultad para prestar atención, impulsividad e inquietud. Los síntomas pueden oscilar entre leves y graves.</p>
             <p id="tex6">Muchos adultos con TDAH no saben que lo tienen; solo saben que las tareas cotidianas pueden resultarles difíciles. Los adultos con TDAH pueden tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas límite y se olviden de reuniones o eventos sociales. La incapacidad para controlar los impulsos puede oscilar entre tener impaciencia al esperar en una fila o al conducir con mucho tránsito, y tener cambios de humor y arrebatos de ira. Algunos de los síntomas del TDAH en adultos son los siguientes:</p>
             <p>
@@ -102,7 +102,7 @@ function traducir(){
                     <li id="tex15">Cambios de humor frecuentes</li>
                 </ul></p>
                 <div class="img_list"><img src="../img/tdh_tema.jpg" class="tema_img"></div>
-                <a name="tipos"><h2 id="tex16">Tipos de TDH</h2></a>
+                <blockquote><a name="tipos"><h2 id="tex16">Tipos de TDH</h2></a></blockquote>
                                 <p>
                                     <ul>
                                         <li id="tex17">TDAH, presentación predominante hiperactiva/impulsiva.
@@ -114,9 +114,9 @@ function traducir(){
                                     </ul>
                                 </p>
                                        </p>
-                                        <a name="causas"><h2 id="tex20">Causas del TDH</h2></a>
+                                        <blockquote><a name="causas"><h2 id="tex20">Causas del TDH</h2></a></blockquote>
                                        <p class="context" id="tex21">Aunque la causa exacta del TDAH no está clara, las investigaciones continúan. Los factores que pueden estar involucrados en el desarrollo del TDAH incluyen la genética, el medio ambiente o problemas con el sistema nervioso central en momentos clave del desarrollo.</p>
-                                       <a name="tips"><h2 id="tex22">Tips para tratar el TDH</h2></a>
+                                       <blockquote><a name="tips"><h2 id="tex22">Tips para tratar el TDH</h2></a></blockquote>
                                        <p>
                                            <ul >
                                                <li id="tex23">Motívate para levantarte por la mañana. Algunos días te cuesta mucho levantarte. A esa hora de la mañana sueles tener hambre. Piensa en un buen desayuno y en cómo lo vas a preparar. Eso te sacará de la cama antes.

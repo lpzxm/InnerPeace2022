@@ -79,7 +79,7 @@ function traducir(){
         <article>
             <blockquote><h2 id="first-quote">La ansiedad</h2></blockquote>
 
-            <h3><a name="que es" id="second-quote">¿Qué es la ansiedad?</a></h3>
+            <h2><a name="que es" id="second-quote">¿Qué es la ansiedad?</a></h2>
 
             <p class="context" id="tree-quote">La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés. Por ejemplo, puede sentirse ansioso cuando se enfrenta a un problema difícil en el trabajo, antes de tomar un examen o antes de tomar una decisión importante. Si bien la ansiedad puede ayudar a enfrentar una situación, además de darle un impulso de energía o ayudarle a concentrarse, para las personas con trastornos de ansiedad el miedo no es temporal y puede ser abrumadora.</p>
 

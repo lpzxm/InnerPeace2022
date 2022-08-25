@@ -73,8 +73,8 @@ function traducir(){
     </div></a>
     <div class="container-content">
         <article>
-            <h1 class="tx1">El estrés</h1>
-            <a name="que es" class="text1"><h2>¿Qué es el estrés?</h2></a>
+            <h1 class="tx1">El estrés</h1><br>
+            <h3><a name="que es" class="text1">¿Qué es el estrés?</a></h3>
             <p class="context"> El estrés es la respuesta física o mental a una causa externa, como tener muchas tareas o padecer una enfermedad. Un estresor o factor estresante puede ser algo que ocurre una sola vez o a corto plazo, o puede suceder repetidamente durante mucho tiempo.</p>
             <a name="signos" id="tx2"><h2>¿Cuales son los signos o sintomas de el estrés?</h2></a>
             <p id="tx3">El estrés puede causar muchos tipos de síntomas físicos y emocionales. Algunas veces posiblemente no se dará cuenta de que estos síntomas son ocasionados por el estrés. Aquí hay algunos signos de que el estrés le puede estar afectando:
@@ -93,7 +93,7 @@ function traducir(){
                     <li id="tx14">Pérdida o aumento de peso</li>
                 </ul></p></p>
                 
-                <a name="tipos"><h2 id="tx15">Tipos de estrés</h2></a>
+                <blockquote><a name="tipos"><h2 id="tx15">Tipos de estrés</h2></a></blockquote>
                 <p id="tx16">El estrés es un sentimiento normal. Hay dos tipos principales de estrés:</p>
                                 <p>
                                     <ul>
@@ -127,7 +127,7 @@ function traducir(){
                                        <li id="tx36">Cambio de hábitos alimentarios</li><br>
                                        </ul><br>
 
-                                       <h2 id="tx37">¿Cómo se manifiesta el estrés?</h2><br>
+                                       <blockquote><h2 id="tx37">¿Cómo se manifiesta el estrés?</h2></blockquote><br>
                                        <p id="tx38">Una vez que has identificado las situaciones que te generan estrés, es importante reconocer cómo reacciones frente a ellas; qué efectos generan en tu organismo y en tus emociones.</p><br>
                                        <p id="tx39">Aunque inicialmente el estrés es normal y provechoso, ya que nos ayuda a activarnos para poder responder a las demandas y exigencias del medio, con el tiempo nuestro cuerpo y nuestra mente se van agotando y comienzan a disminuir en su rendimiento.</p><br>
                                        <p id="tx40">Para prevenir esta baja en el rendimiento debemos regular la cantidad de tiempo que nos mantenemos funcionando bajo altos niveles de exigencia, fase a la que se denomina resistencia, que se ve seguida de la fase de agotamiento.</p><br>

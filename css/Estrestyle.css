@@ -55,7 +55,7 @@ article::before{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: rgb(58, 113, 190);
 }
 
 article h1{
@@ -127,7 +127,7 @@ blockquote {
     margin: 20px 0 30px;
     border-left: 5px solid;
     padding-left: 20px;
-    border-color: rgb(241, 42, 6);
+    border-color: rgb(58, 113, 190);
 }
 
 .content__description ul li:before{
