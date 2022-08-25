@@ -269,7 +269,7 @@ function traducir(){
    <script src="../js/Translate/translateindex.js"></script>
 
    <!--slider -->
-   <script src="../js/Translate/slider1.js"></script>
+   <script src="../js/slider1.js"></script>
 
 </body>
 </html>

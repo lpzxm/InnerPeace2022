@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -38,9 +39,13 @@ body {
 .header {
     background:#eee;
     padding: 20px;
-    color:#666;
+    color:rgb(0, 0, 0);
     font-size: 20px;
     text-align: center;
+    font-family: 'DynaPuff', cursive;
+
+
+    
 }
 
 .avail {
@@ -49,22 +54,15 @@ body {
     padding-right: 30px;
 }
 
-.avail::after {
-    content: "";
-    display: inline-block;
-    background: rgb(4, 180, 4);
-    width: 10px;
-    height: 10px;
-    margin: 0 3px;
-    vertical-align: middle;
-    border-radius: 50%;
-}
+
+                           
 
 .body {
-    background: white;
+    background: rgb(231, 253, 253);
     height: 100%;
     width: 100%;
     overflow-y: auto;
+    border-radius: 12px;
     
 }
 
@@ -75,7 +73,11 @@ input {
 
 input[type="text"] {
     padding: 0 10px;
-    background: linear-gradient(#f59920, #97e4d0);
+    background: linear-gradient(#9baaff, #7e7e7e);
+    font-family: 'DynaPuff', cursive;
+    
+
+  
 }
 
 input[type="submit"] {
@@ -86,6 +88,7 @@ input[type="submit"] {
     font-size: 17px;
     color: aliceblue;
     cursor: pointer;
+    
 }
 
 .visible {
@@ -103,7 +106,7 @@ input[type="submit"] {
     height: auto;
     padding: 10px;
     margin: 5px;
-   background: linear-gradient(	#f59920, #97e4d0);
+    background: linear-gradient(	#0041f3, #002da8ab);
     border-radius: 10px;
     float: right;
     text-align: right;
@@ -117,7 +120,7 @@ input[type="submit"] {
     height: auto;
     padding: 10px;
     margin: 5px;
-    background:linear-gradient( #3F65FE , #f44183);
+    background:linear-gradient( #0033ff , #001455);
     border-radius: 10px;
     float: left;
     text-align: left;
@@ -130,10 +133,3 @@ input[type="submit"] {
     border-radius: 150px;
 }
 
-.creador {
-    background-color: crimson;
-    color: aliceblue;
-    font-size: 16px;
-    height: 20px;
-    width: 80px
-}
