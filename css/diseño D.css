@@ -176,7 +176,7 @@ a:hover i{
 }
 table thead tr{
   color: #fff;
-  background: #34AF6D;
+  background: #0c4cbb;
   text-align: left;
   font-weight: bold;
 }
@@ -195,7 +195,7 @@ table thead tr{
   color: #4AD489;
 }
 .table tbody tr:last-of-type{
-  border-bottom: 2px solid #4AD489;
+  border-bottom: 2px solid #0008ff;
 }
 .table button{
   padding: 6px 20px;
