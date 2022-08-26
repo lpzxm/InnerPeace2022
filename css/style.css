@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
 /*Step 1: CSS*/
 *,
 *:before,
@@ -8,7 +10,9 @@
 }
 body {
   height: 100vh;
-  background: #012d42;
+  background-image: url(../img/7230633_3594607.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container {
   width: 40%;
@@ -52,7 +56,7 @@ body {
   float: right;
   font-weight: 500;
   font-size: 16px;
-  background-color: #0d75ec;
+  background-color: #0077ffa9;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -75,7 +79,7 @@ body {
 .task {
   border-radius: 5px;
   align-items: center;
-  border: 1px solid #939697;
+  border: 1px solid #0000008e;
   cursor: pointer;
   background-color: #dadbdf;
   height: 50px;
@@ -90,8 +94,8 @@ body {
   font-weight: 400;
 }
 .task .button {
-  background-color: #db2525;
-  color: #ffffff;
+  
+  color: #000000;
   border: none;
   cursor: pointer;
   outline: none;
@@ -115,7 +119,7 @@ body {
 }
 
 .alert-success {
-  color: #3c763d;
+  color: #387038;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
@@ -142,4 +146,8 @@ body {
   top: -2px;
   right: -10px;
   color: inherit;
+}
+
+h3{
+  font-family: 'DynaPuff', cursive;
 }

@@ -12,6 +12,9 @@ body {
     font-size: 16px;
     line-height: 16px;
     background-image: url(../img/robot-with-laptop-and-computer-mouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     
 }
 
@@ -25,14 +28,15 @@ body {
 }
 
 .chatbox {
-    width: 50%;
-    height: 775px;
+    width: 100%;
+    height: 1100px;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
     margin-top: 20px;
-    background: rgb(138, 133, 132);
+    background: rgba(138, 133, 132, 0);
+    
     border-radius: 10px;
 }
 
@@ -58,11 +62,12 @@ body {
                            
 
 .body {
-    background: rgb(231, 253, 253);
+    background: rgba(255, 255, 255, 0);
+   
     height: 100%;
     width: 100%;
     overflow-y: auto;
-    border-radius: 12px;
+    border-radius: 15px;
     
 }
 
@@ -73,8 +78,10 @@ input {
 
 input[type="text"] {
     padding: 0 10px;
-    background: linear-gradient(#9baaff, #7e7e7e);
-    font-family: 'DynaPuff', cursive;
+    background: #00000071;
+    border-radius: 12px;
+    color:rgb(0, 0, 0);
+    
     
 
   
@@ -83,11 +90,13 @@ input[type="text"] {
 input[type="submit"] {
     height: 25px;
     border: 0;
-    background: #000000;
+    background: #2f00ff;
     font-weight: 500;
     font-size: 17px;
     color: aliceblue;
     cursor: pointer;
+    font-family: 'DynaPuff', cursive;
+    border-radius: 12px;
     
 }
 
@@ -120,7 +129,7 @@ input[type="submit"] {
     height: auto;
     padding: 10px;
     margin: 5px;
-    background:linear-gradient( #0033ff , #001455);
+    background:linear-gradient( #0434f5 , #00124d);
     border-radius: 10px;
     float: left;
     text-align: left;

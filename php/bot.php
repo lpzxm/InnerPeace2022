@@ -57,10 +57,15 @@ function traducir(){
         </a>
         <ul>
             <li><a href="../php/Psicologos.php" class="navlink" id="link1">Psicologos</a></li>
+
             <li><a href="../php/FAQ.php" class="navlink" id="link2">Preguntas frecuentes</a></li>
+
             <li><a href="../php/casos clinicos.php" class="navlink" id="link3">Blog</a></li>
+
             <li><a href="../php/Identidad.php" class="navlink" id="link4">Nuestra identidad</a></li>
+
             <a href="<?=directorioReturn(); ?>" class="navlink" id="link5"><button class="login">
+
                 <div class="icono">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
 						<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
@@ -81,10 +86,10 @@ function traducir(){
                     </div>
                     
                         <div class="body" id="chatbody">
-                        <p class="alicia">Hola humano soy Peacebot</p>
-                        <p class="alicia">Colocal el numero que estan debajo para poder comunicarme cconmigo <br>
-                        1-Hola peacebot <br>
-                        2-El clima de hoy esta bello ¿No?
+                        <p class="alicia">Hola estudiante soy Peacebot, mucho gusto.</p><br>
+                        <p class="alicia">Me han creado para ayudarte y poder comunicarme contigo, digita una letra del abecedario o letras mixtas como ab, ax, para poder comunicarme de una mejor manera. <br><br>
+                        1-Hola peacebot <br><br>
+                        2-El clima del día de hoy es muy lindo ¿No?
                         </p>
                             <div class="scroller"></div>
                         </div>

@@ -50,7 +50,7 @@ a{
   position: relative;
   width: 280px;
   font-size: 14px;
-  color: rgb(85, 83, 83);
+  color: rgb(0, 0, 0);
   display: table;
   padding: 10px;
 }
@@ -176,7 +176,7 @@ a:hover i{
 }
 table thead tr{
   color: #fff;
-  background: #0c4cbb;
+  background: #0019fcf8;
   text-align: left;
   font-weight: bold;
 }
