@@ -98,7 +98,7 @@
         <br><br><label for="password" id="TitleH">Contraseña</label>
         <input type="password" name="password" id="pass2" placeholder="Ingresa tu contraseña" required>
         <div class="checkbox-circle">
-          <input type="checkbox" id="checkbox-circle1" class="pass2" name="check" onclick="showPass2()"><label for="checkbox-circle1">Mostrar Contraseña</label>
+          <input type="checkbox" id="checkbox-circle1" class="pass2" name="check" onclick="showPass2()"><label for="checkbox-circle1" id="show">Mostrar Contraseña</label>
         </div>
 
         <a href="../php/aviso de privacidad.php" class="poli">Politica de privacidad</a><br><br>

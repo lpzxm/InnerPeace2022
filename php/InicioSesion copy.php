@@ -28,7 +28,7 @@
         <label for="password" id="P2">Contraseña:</label>
         <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" required>
         <div class="checkbox-circle">
-          <input type="checkbox" id="checkbox-circle1" class="pass" name="check" onclick="showPass()"><label for="checkbox-circle1">Mostrar Contraseña</label>
+          <input type="checkbox" id="checkbox-circle1" class="pass" name="check" onclick="showPass()"><label for="checkbox-circle1" id="show">Mostrar Contraseña</label>
         </div>
         <input type="submit" name="iniciar" value="Iniciar sesión" id="V1">
         <a href="../php/Registro1.php" id="S1">No tienes una cuenta? Registrate!</a>

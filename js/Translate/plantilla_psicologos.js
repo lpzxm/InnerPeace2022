@@ -27,7 +27,7 @@
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "About us"
-                document.querySelector("#fo3").innerHTML = "Psycologists"
+                document.querySelector("#fo3").innerHTML = "Psychologists"
                 document.querySelector("#fo4").innerHTML = "Help centers";
                 document.querySelector(".social-text").innerHTML = "Our social networks!"
                 // checkedbutton
@@ -48,15 +48,15 @@
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
                 // banner
-                document.querySelector("#D1").innerHTML = "Trabajo:Psicologico estudiantil"
-                document.querySelector("#D2").innerHTML = "Formacion academica"
+                document.querySelector("#D1").innerHTML = "Trabajo:Psicólogo estudiantil"
+                document.querySelector("#D2").innerHTML = "Formación academica"
                 document.querySelector("#D3").innerHTML = "Experiencia profesional"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -83,7 +83,7 @@
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "About us"
-                document.querySelector("#fo3").innerHTML = "Psycologists"
+                document.querySelector("#fo3").innerHTML = "Psychologists"
                 document.querySelector("#fo4").innerHTML = "Help centers";
                 document.querySelector(".social-text").innerHTML = "Our social networks!"
                 // checkedbutton
@@ -104,15 +104,15 @@
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
                 // banner
-                document.querySelector("#D1").innerHTML = "Trabajo:Psicologico estudiantil"
-                document.querySelector("#D2").innerHTML = "Formacion academica"
+                document.querySelector("#D1").innerHTML = "Trabajo:Psicólogo estudiantil"
+                document.querySelector("#D2").innerHTML = "Formación academica"
                 document.querySelector("#D3").innerHTML = "Experiencia profesional"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";

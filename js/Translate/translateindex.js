@@ -80,7 +80,7 @@
                 }
                 // banner
                 document.querySelector("#pal1").innerHTML = "Bienvenido ";
-                document.querySelector("#pal2").innerHTML = "a la pagina de salesianidad mental";
+                document.querySelector("#pal2").innerHTML = "a la página de salesianidad mental";
                 // document.querySelector("#contenido1").innerHTML = "Bienvenido a la pagina de salesianidad mental"
                 document.querySelector("#contenido2").innerHTML = "Mi satisfacción es verte alegre - Don Bosco"
                 document.querySelector("#boton1").innerHTML = "¡Vamos!"
@@ -109,13 +109,13 @@
                 document.querySelector("#falta_info").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es una afección crónica que afecta a millones de niños y a menudo continúa en la edad adulta. El TDAH incluye una combinación de problemas persistentes, tales como dificultad para mantener la atención, hiperactividad y comportamiento impulsivo."
                 // intencion
                 document.querySelector(".tit_intencion").innerHTML = "Inner Peace como tu amigo"
-                document.querySelector(".desc_intencion").innerHTML = "Inner Peace pretende ayudar a los estudiantes con problemas o padecimientos psicologicos mediante soluciones interactivas para que obtengas un crecimiento mental y te sientas bien contigo mismo"
+                document.querySelector(".desc_intencion").innerHTML = "Inner Peace pretende ayudar a los estudiantes con problemas o padecimientos psicológicos mediante soluciones interactivas para que obtengas un crecimiento mental y te sientas bien contigo mismo"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio";
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros";
                 document.querySelector("#fo3").innerHTML = "Psicólogos";
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -191,7 +191,7 @@
                 }
                 // banner
                 document.querySelector("#pal1").innerHTML = "Bienvenido ";
-                document.querySelector("#pal2").innerHTML = "a la pagina de salesianidad mental";
+                document.querySelector("#pal2").innerHTML = "a la página de salesianidad mental";
                 // document.querySelector("#contenido1").innerHTML = "Bienvenido a la pagina de salesianidad mental"
                 document.querySelector("#contenido2").innerHTML = "Mi satisfacción es verte alegre - Don Bosco"
                 document.querySelector("#boton1").innerHTML = "¡Vamos!"
@@ -220,13 +220,13 @@
                 document.querySelector("#falta_info").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es una afección crónica que afecta a millones de niños y a menudo continúa en la edad adulta. El TDAH incluye una combinación de problemas persistentes, tales como dificultad para mantener la atención, hiperactividad y comportamiento impulsivo."
                 // intencion
                 document.querySelector(".tit_intencion").innerHTML = "Inner Peace como tu amigo"
-                document.querySelector(".desc_intencion").innerHTML = "Inner Peace pretende ayudar a los estudiantes con problemas o padecimientos psicologicos mediante soluciones interactivas para que obtengas un crecimiento mental y te sientas bien contigo mismo"
+                document.querySelector(".desc_intencion").innerHTML = "Inner Peace pretende ayudar a los estudiantes con problemas o padecimientos psicológicos mediante soluciones interactivas para que obtengas un crecimiento mental y te sientas bien contigo mismo"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicologos"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";

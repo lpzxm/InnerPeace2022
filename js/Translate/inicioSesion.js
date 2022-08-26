@@ -15,6 +15,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#P2").innerHTML = "Password"
                 document.getElementsByName('password')[0].placeholder = "Enter your password"
                 document.querySelector("#V1").value = "Log In"
+                document.querySelector("#show").innerHTML = "Show password"
                 document.querySelector("#S1").innerHTML = "You do not have an account? Sign up!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -24,13 +25,14 @@ image.src = '../img/united-kingdom.png';
             else{
                 localStorage.setItem("idioma", "es")
                 //login
-                document.querySelector("#titleA").innerHTML = "Ingresa aqui"
+                document.querySelector("#titleA").innerHTML = "Ingresa aquí"
                 document.querySelector("#U1").innerHTML = "Correo institucional";
-                document.getElementsByName('username')[0].placeholder="Ingresa tu correo electronico";
+                document.getElementsByName('username')[0].placeholder="Ingresa tu correo electrónico";
                 document.querySelector("#P2").innerHTML = "Contraseña"
                 document.getElementsByName('password')[0].placeholder = "Ingresa tu contraseña"
+                document.querySelector("#show").innerHTML = "Mostrar contraseña"
                 document.querySelector("#V1").value = "Iniciar sesión"
-                document.querySelector("#S1").innerHTML = "No tienes una cuenta? Registrate!"
+                document.querySelector("#S1").innerHTML = "¿No tienes una cuenta? ¡Regístrate!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -47,6 +49,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#P2").innerHTML = "Password"
                 document.getElementsByName('password')[0].placeholder = "Enter your password"
                 document.querySelector("#V1").value = "Log In"
+                document.querySelector("#show").innerHTML = "Show password"
                 document.querySelector("#S1").innerHTML = "You do not have an account? Sign up!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -55,14 +58,15 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                // login
-                document.querySelector("#titleA").innerHTML = "Ingresa aqui"
+                //login
+                document.querySelector("#titleA").innerHTML = "Ingresa aquí"
                 document.querySelector("#U1").innerHTML = "Correo institucional";
-                document.getElementsByName('username')[0].placeholder="Ingresa tu correo electronico";
+                document.getElementsByName('username')[0].placeholder="Ingresa tu correo electrónico";
                 document.querySelector("#P2").innerHTML = "Contraseña"
                 document.getElementsByName('password')[0].placeholder = "Ingresa tu contraseña"
                 document.querySelector("#V1").value = "Iniciar sesión"
-                document.querySelector("#S1").innerHTML = "No tienes una cuenta? Registrate!"
+                document.querySelector("#show").innerHTML = "Mostrar contraseña"
+                document.querySelector("#S1").innerHTML = "¿No tienes una cuenta? ¡Regístrate!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";

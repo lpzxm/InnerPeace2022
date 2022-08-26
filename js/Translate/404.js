@@ -17,7 +17,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
-                document.querySelector("#page1").innerHTML = "Pagina no encontrada";
+                document.querySelector("#page1").innerHTML = "Página no encontrada";
 
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
@@ -37,7 +37,7 @@ image.src = '../img/united-kingdom.png';
             else{
                   localStorage.setItem("idioma", "es")
                 // title
-                document.querySelector("#page1").innerHTML = "Pagina no encontrada";
+                document.querySelector("#page1").innerHTML = "Página no encontrada";
 
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";

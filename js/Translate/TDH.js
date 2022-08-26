@@ -83,7 +83,7 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tex1").innerHTML = "Falta de atención";
                    document.querySelector("#tex2").innerHTML = "¿Qué es el TDH?";
                    document.querySelector("#tex3").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.";
-                   document.querySelector("#tex4").innerHTML = "¿Cuáles son los signos o síntomas  del TDH?";
+                   document.querySelector("#tex4").innerHTML = "¿Cuáles son los signos o síntomas del TDH?";
                    document.querySelector("#tex5").innerHTML = "Algunas personas con TDAH tienen menos síntomas a medida que envejecen, pero algunos adultos siguen teniendo síntomas importantes que interfieren en su vida diaria. En el caso de los adultos, algunas de las características principales del TDAH pueden ser dificultad para prestar atención, impulsividad e inquietud. Los síntomas pueden oscilar entre leves y graves.";
                    document.querySelector("#tex6").innerHTML = "Muchos adultos con TDAH no saben que lo tienen; solo saben que las tareas cotidianas pueden resultarles difíciles. Los adultos con TDAH pueden tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas límite y se olviden de reuniones o eventos sociales. La incapacidad para controlar los impulsos puede oscilar entre tener impaciencia al esperar en una fila o al conducir con mucho tránsito, y tener cambios de humor y arrebatos de ira. Algunos de los síntomas del TDAH en adultos son los siguientes:";
                    document.querySelector("#tex7").innerHTML = "Impulsividad";
@@ -96,9 +96,9 @@ image.src = '../img/united-kingdom.png';
                    document.querySelector("#tex14").innerHTML = "Baja tolerancia a la frustración";
                    document.querySelector("#tex15").innerHTML = "Cambios de humor frecuentes";
                    document.querySelector("#tex16").innerHTML = "Tipos de TDH";
-                   document.querySelector("#tex17").innerHTML = "TDAH, presentación predominante hiperactiva/impulsiva.Los niños que tienen este tipo de TDAH presentan síntomas de hiperactividad y sienten la necesidad de moverse constantemente. También tienen dificultad para controlar sus impulsos. Por lo general no tienen problemas de atención. Esta presentación se ve más a menudo en niños pequeños.";
-                   document.querySelector("#tex18").innerHTML = "TDAH, presentación predominante con falta de atención.Los niños que tienen este tipo de TDAH tienen dificultad para prestar atención. Se distraen con facilidad pero noson impulsivos ohiperactivos. A veces se denomina de manera no oficial como trastorno por déficit de atención o TDA.";
-                   document.querySelector("#tex19").innerHTML = "TDAH, presentación combinada.Los niños que tienen este tipo de TDAH muestran problemas significativos, tanto de hiperactividad/impulsividad como de falta de atención. Sin embargo, puede que esos problemas de hiperactividad/impulsividad disminuyan gradualmente al aproximarse la adolescencia.";
+                   document.querySelector("#tex17").innerHTML = "TDAH, presentación predominante hiperactiva/impulsiva. Los niños que tienen este tipo de TDAH presentan síntomas de hiperactividad y sienten la necesidad de moverse constantemente. También tienen dificultad para controlar sus impulsos. Por lo general no tienen problemas de atención. Esta presentación se ve más a menudo en niños pequeños.";
+                   document.querySelector("#tex18").innerHTML = "TDAH, presentación predominante con falta de atención. Los niños que tienen este tipo de TDAH tienen dificultad para prestar atención. Se distraen con facilidad, pero no son impulsivos o hiperactivos. A veces se denomina de manera no oficial como trastorno por déficit de atención o TDA.";
+                   document.querySelector("#tex19").innerHTML = "TDAH, presentación combinada. Los niños que tienen este tipo de TDAH muestran problemas significativos, tanto de hiperactividad/impulsividad como de falta de atención. Sin embargo, puede que esos problemas de hiperactividad/impulsividad disminuyan gradualmente al aproximarse la adolescencia.";
                    document.querySelector("#tex20").innerHTML = "Causas del TDH";
                    document.querySelector("#tex21").innerHTML = "Aunque la causa exacta del TDAH no está clara, las investigaciones continúan. Los factores que pueden estar involucrados en el desarrollo del TDAH incluyen la genética, el medio ambiente o problemas con el sistema nervioso central en momentos clave del desarrollo.";
                    document.querySelector("#tex22").innerHTML = "Tips para tratar el TDH";
@@ -108,12 +108,12 @@ image.src = '../img/united-kingdom.png';
    
                    document.querySelector("#tex24").innerHTML = "Haz deporte. El ejercicio físico mejora mucho la atención sostenida. Aunque pierdas algo de tiempo de estudio, dedicar 1 hora 3 veces por semana a hacer ejercicio mejorará tus funciones ejecutivas.";
                    document.querySelector("#tex25").innerHTML = "Prepara esquemas todos los días. Cada día, cuando te sientes a estudiar por la tarde (aunque no tengas examen) haz esquemas de lo que has aprendido en el colegio. Resalta con colores los diferentes apartados según su importancia. Cuando tengas que prepararte el examen estudia sobre el esquema. Te será mucho más fácil memorizarlo.";
-                   document.querySelector("#tex26").innerHTML = "Estudia en voz alta. Cuando la información llega al cerebro por el oído se fija en la memoria más fácilmente que cuando sólo la lees.";
-                   document.querySelector("#tex27").innerHTML = "Utiliza check-lists. Como hacen los pilotos cada vez que despegan o aterrizan, con las tareas rutinarias ¡y eso que las hacen varias veces todos los días! No te fíes de tu memoria. Haz una lista de tareas para salir de casa por la mañana (material que debes meter en la cartera, almuerzo, recoger la habitación, cepillar los dientes, llevar la ropa sucia a su sitio -si te has cambiado-, coger las llaves), y otra para antes de acostarte. Ponlas en sitios visibles y compruébalas cada día, como si fuera la primera vez.";
+                   document.querySelector("#tex26").innerHTML = "Estudia en voz alta. Cuando la información llega al cerebro por el oído, se fija en la memoria más fácilmente que cuando solo la lees.";
+                   document.querySelector("#tex27").innerHTML = "Utiliza check-lists. Como hacen los pilotos cada vez que despegan o aterrizan, con las tareas rutinarias, ¡y eso que las hacen varias veces todos los días! No te fíes de tu memoria. Haz una lista de tareas para salir de casa por la mañana (material que debes meter en la cartera, almuerzo, recoger la habitación, cepillar los dientes, llevar la ropa sucia a su sitio -si te has cambiado-, coger las llaves), y otra para antes de acostarte. Ponlas en sitios visibles y compruébalas cada día, como si fuera la primera vez.";
                    document.querySelector("#cite").innerHTML = "Video gracias a: Psycho2go"
                    document.querySelector("#aside_tit").innerHTML = "Falta de atención"
                    document.querySelector("#tex28").innerHTML = "¿Qué es el TDH?";
-                   document.querySelector("#tex29").innerHTML = "Síntomas  del TDH";
+                   document.querySelector("#tex29").innerHTML = "Síntomas del TDH";
                    document.querySelector("#tex30").innerHTML = "Tipos de TDH";
                    document.querySelector("#tex31").innerHTML = "Causas del TDH";
                    document.querySelector("#tex32").innerHTML = "Tips para tratar el TDH";
@@ -123,7 +123,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -207,52 +207,54 @@ image.src = '../img/united-kingdom.png';
                   if (document.querySelector("#Salir")) {
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
-                   /*Parte de document querySelector en Español*/
-                   document.querySelector("#tex1").innerHTML = "Falta de atención";
-                   document.querySelector("#tex2").innerHTML = "¿Qué es el TDH?";
-                   document.querySelector("#tex3").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.";
-                   document.querySelector("#tex4").innerHTML = "¿Cuáles son los signos o síntomas  del TDH?";
-                   document.querySelector("#tex5").innerHTML = "Algunas personas con TDAH tienen menos síntomas a medida que envejecen, pero algunos adultos siguen teniendo síntomas importantes que interfieren en su vida diaria. En el caso de los adultos, algunas de las características principales del TDAH pueden ser dificultad para prestar atención, impulsividad e inquietud. Los síntomas pueden oscilar entre leves y graves.";
-                   document.querySelector("#tex6").innerHTML = "Muchos adultos con TDAH no saben que lo tienen; solo saben que las tareas cotidianas pueden resultarles difíciles. Los adultos con TDAH pueden tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas límite y se olviden de reuniones o eventos sociales. La incapacidad para controlar los impulsos puede oscilar entre tener impaciencia al esperar en una fila o al conducir con mucho tránsito, y tener cambios de humor y arrebatos de ira. Algunos de los síntomas del TDAH en adultos son los siguientes:";
-                   document.querySelector("#tex7").innerHTML = "Impulsividad";
-                   document.querySelector("#tex8").innerHTML = "Desorganización y problemas para establecer prioridades";
-                   document.querySelector("#tex9").innerHTML = "Escasas habilidades para administrar el tiempo";
-                   document.querySelector("#tex10").innerHTML = "Problemas para concentrarse en una tarea";
-                   document.querySelector("#tex11").innerHTML = "Problemas para realizar múltiples tareas a la vez";
-                   document.querySelector("#tex12").innerHTML = "Actividad excesiva o inquietud";
-                   document.querySelector("#tex13").innerHTML = "Escasa planificación";
-                   document.querySelector("#tex14").innerHTML = "Baja tolerancia a la frustración";
-                   document.querySelector("#tex15").innerHTML = "Cambios de humor frecuentes";
-                   document.querySelector("#tex16").innerHTML = "Tipos de TDH";
-                   document.querySelector("#tex17").innerHTML = "TDAH, presentación predominante hiperactiva/impulsiva.Los niños que tienen este tipo de TDAH presentan síntomas de hiperactividad y sienten la necesidad de moverse constantemente. También tienen dificultad para controlar sus impulsos. Por lo general no tienen problemas de atención. Esta presentación se ve más a menudo en niños pequeños.";
-                   document.querySelector("#tex18").innerHTML = "TDAH, presentación predominante con falta de atención.Los niños que tienen este tipo de TDAH tienen dificultad para prestar atención. Se distraen con facilidad pero noson impulsivos ohiperactivos. A veces se denomina de manera no oficial como trastorno por déficit de atención o TDA.";
-                   document.querySelector("#tex19").innerHTML = "TDAH, presentación combinada.Los niños que tienen este tipo de TDAH muestran problemas significativos, tanto de hiperactividad/impulsividad como de falta de atención. Sin embargo, puede que esos problemas de hiperactividad/impulsividad disminuyan gradualmente al aproximarse la adolescencia.";
-                   document.querySelector("#tex20").innerHTML = "Causas del TDH";
-                   document.querySelector("#tex21").innerHTML = "Aunque la causa exacta del TDAH no está clara, las investigaciones continúan. Los factores que pueden estar involucrados en el desarrollo del TDAH incluyen la genética, el medio ambiente o problemas con el sistema nervioso central en momentos clave del desarrollo.";
-                   document.querySelector("#tex22").innerHTML = "Tips para tratar el TDH";
-                   document.querySelector("#tex23").innerHTML = "Motívate para levantarte por la mañana. Algunos días te cuesta mucho levantarte. A esa hora de la mañana sueles tener hambre. Piensa en un buen desayuno y en cómo lo vas a preparar. Eso te sacará de la cama antes.";
-   
-                   document.querySelector("#tex24").innerHTML = "Haz deporte. El ejercicio físico mejora mucho la atención sostenida. Aunque pierdas algo de tiempo de estudio, dedicar 1 hora 3 veces por semana a hacer ejercicio mejorará tus funciones ejecutivas.";
-                   document.querySelector("#tex25").innerHTML = "Prepara esquemas todos los días. Cada día, cuando te sientes a estudiar por la tarde (aunque no tengas examen) haz esquemas de lo que has aprendido en el colegio. Resalta con colores los diferentes apartados según su importancia. Cuando tengas que prepararte el examen estudia sobre el esquema. Te será mucho más fácil memorizarlo.";
-                   document.querySelector("#tex26").innerHTML = "Estudia en voz alta. Cuando la información llega al cerebro por el oído se fija en la memoria más fácilmente que cuando sólo la lees.";
-                   document.querySelector("#tex27").innerHTML = "Utiliza check-lists. Como hacen los pilotos cada vez que despegan o aterrizan, con las tareas rutinarias ¡y eso que las hacen varias veces todos los días! No te fíes de tu memoria. Haz una lista de tareas para salir de casa por la mañana (material que debes meter en la cartera, almuerzo, recoger la habitación, cepillar los dientes, llevar la ropa sucia a su sitio -si te has cambiado-, coger las llaves), y otra para antes de acostarte. Ponlas en sitios visibles y compruébalas cada día, como si fuera la primera vez.";
-                   document.querySelector("#cite").innerHTML = "Video gracias a: Psycho2go"
-                   document.querySelector("#aside_tit").innerHTML = "Falta de atención"
-                   document.querySelector("#tex28").innerHTML = "¿Qué es el TDH?";
-                   document.querySelector("#tex29").innerHTML = "Sintomas del TDH";
-                   document.querySelector("#tex30").innerHTML = "Tipos de TDH";
-                   document.querySelector("#tex31").innerHTML = "Causas del TDH";
-                   document.querySelector("#tex32").innerHTML = "Tips para tratar el TDH";
-                // footer
-                document.querySelector("#fo1").innerHTML = "Inicio"
-                document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                document.querySelector("#fo3").innerHTML = "Psicólogos"
-                document.querySelector("#fo4").innerHTML = "Centros de ayuda"
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
-                // checkedbutton
-                document.querySelector(".trans").appendChild(image).style.width = "50px";
-                document.querySelector(".trans").appendChild(img).style.width = "50px";
-                document.querySelector(".trans").removeChild(img);
+                document.querySelector("#tex1").innerHTML = "Falta de atención";
+                document.querySelector("#tex2").innerHTML = "¿Qué es el TDH?";
+                document.querySelector("#tex3").innerHTML = "El trastorno por déficit de atención e hiperactividad (TDAH) es un trastorno mental que comprende una combinación de problemas persistentes, como dificultad para prestar atención, hiperactividad y conducta impulsiva. El TDAH en los adultos puede llevar a relaciones inestables, mal desempeño en el trabajo o en la escuela, baja autoestima y otros problemas.";
+                document.querySelector("#tex4").innerHTML = "¿Cuáles son los signos o síntomas del TDH?";
+                document.querySelector("#tex5").innerHTML = "Algunas personas con TDAH tienen menos síntomas a medida que envejecen, pero algunos adultos siguen teniendo síntomas importantes que interfieren en su vida diaria. En el caso de los adultos, algunas de las características principales del TDAH pueden ser dificultad para prestar atención, impulsividad e inquietud. Los síntomas pueden oscilar entre leves y graves.";
+                document.querySelector("#tex6").innerHTML = "Muchos adultos con TDAH no saben que lo tienen; solo saben que las tareas cotidianas pueden resultarles difíciles. Los adultos con TDAH pueden tener dificultades para concentrarse y establecer prioridades, lo que suele ocasionar que no cumplan con fechas límite y se olviden de reuniones o eventos sociales. La incapacidad para controlar los impulsos puede oscilar entre tener impaciencia al esperar en una fila o al conducir con mucho tránsito, y tener cambios de humor y arrebatos de ira. Algunos de los síntomas del TDAH en adultos son los siguientes:";
+                document.querySelector("#tex7").innerHTML = "Impulsividad";
+                document.querySelector("#tex8").innerHTML = "Desorganización y problemas para establecer prioridades";
+                document.querySelector("#tex9").innerHTML = "Escasas habilidades para administrar el tiempo";
+                document.querySelector("#tex10").innerHTML = "Problemas para concentrarse en una tarea";
+                document.querySelector("#tex11").innerHTML = "Problemas para realizar múltiples tareas a la vez";
+                document.querySelector("#tex12").innerHTML = "Actividad excesiva o inquietud";
+                document.querySelector("#tex13").innerHTML = "Escasa planificación";
+                document.querySelector("#tex14").innerHTML = "Baja tolerancia a la frustración";
+                document.querySelector("#tex15").innerHTML = "Cambios de humor frecuentes";
+                document.querySelector("#tex16").innerHTML = "Tipos de TDH";
+                document.querySelector("#tex17").innerHTML = "TDAH, presentación predominante hiperactiva/impulsiva. Los niños que tienen este tipo de TDAH presentan síntomas de hiperactividad y sienten la necesidad de moverse constantemente. También tienen dificultad para controlar sus impulsos. Por lo general no tienen problemas de atención. Esta presentación se ve más a menudo en niños pequeños.";
+                document.querySelector("#tex18").innerHTML = "TDAH, presentación predominante con falta de atención. Los niños que tienen este tipo de TDAH tienen dificultad para prestar atención. Se distraen con facilidad, pero no son impulsivos o hiperactivos. A veces se denomina de manera no oficial como trastorno por déficit de atención o TDA.";
+                document.querySelector("#tex19").innerHTML = "TDAH, presentación combinada. Los niños que tienen este tipo de TDAH muestran problemas significativos, tanto de hiperactividad/impulsividad como de falta de atención. Sin embargo, puede que esos problemas de hiperactividad/impulsividad disminuyan gradualmente al aproximarse la adolescencia.";
+                document.querySelector("#tex20").innerHTML = "Causas del TDH";
+                document.querySelector("#tex21").innerHTML = "Aunque la causa exacta del TDAH no está clara, las investigaciones continúan. Los factores que pueden estar involucrados en el desarrollo del TDAH incluyen la genética, el medio ambiente o problemas con el sistema nervioso central en momentos clave del desarrollo.";
+                document.querySelector("#tex22").innerHTML = "Tips para tratar el TDH";
+                document.querySelector("#tex23").innerHTML = "Motívate para levantarte por la mañana. Algunos días te cuesta mucho levantarte. A esa hora de la mañana sueles tener hambre. Piensa en un buen desayuno y en cómo lo vas a preparar. Eso te sacará de la cama antes.";
+
+
+
+                document.querySelector("#tex24").innerHTML = "Haz deporte. El ejercicio físico mejora mucho la atención sostenida. Aunque pierdas algo de tiempo de estudio, dedicar 1 hora 3 veces por semana a hacer ejercicio mejorará tus funciones ejecutivas.";
+                document.querySelector("#tex25").innerHTML = "Prepara esquemas todos los días. Cada día, cuando te sientes a estudiar por la tarde (aunque no tengas examen) haz esquemas de lo que has aprendido en el colegio. Resalta con colores los diferentes apartados según su importancia. Cuando tengas que prepararte el examen estudia sobre el esquema. Te será mucho más fácil memorizarlo.";
+                document.querySelector("#tex26").innerHTML = "Estudia en voz alta. Cuando la información llega al cerebro por el oído, se fija en la memoria más fácilmente que cuando solo la lees.";
+                document.querySelector("#tex27").innerHTML = "Utiliza check-lists. Como hacen los pilotos cada vez que despegan o aterrizan, con las tareas rutinarias, ¡y eso que las hacen varias veces todos los días! No te fíes de tu memoria. Haz una lista de tareas para salir de casa por la mañana (material que debes meter en la cartera, almuerzo, recoger la habitación, cepillar los dientes, llevar la ropa sucia a su sitio -si te has cambiado-, coger las llaves), y otra para antes de acostarte. Ponlas en sitios visibles y compruébalas cada día, como si fuera la primera vez.";
+                document.querySelector("#cite").innerHTML = "Video gracias a: Psycho2go"
+                document.querySelector("#aside_tit").innerHTML = "Falta de atención"
+                document.querySelector("#tex28").innerHTML = "¿Qué es el TDH?";
+                document.querySelector("#tex29").innerHTML = "Síntomas del TDH";
+                document.querySelector("#tex30").innerHTML = "Tipos de TDH";
+                document.querySelector("#tex31").innerHTML = "Causas del TDH";
+                document.querySelector("#tex32").innerHTML = "Tips para tratar el TDH";
+             
+            // footer
+             document.querySelector("#fo1").innerHTML = "Inicio"
+             document.querySelector("#fo2").innerHTML = "Sobre nosotros"
+             document.querySelector("#fo3").innerHTML = "Psicólogos"
+             document.querySelector("#fo4").innerHTML = "Centros de ayuda";
+             document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
+             // checkedbutton
+             document.querySelector(".trans").appendChild(image).style.width = "50px";
+             document.querySelector(".trans").appendChild(img).style.width = "50px";
+             document.querySelector(".trans").removeChild(img);
             }
         }
     }

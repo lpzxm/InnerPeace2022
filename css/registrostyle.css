@@ -13,7 +13,7 @@ body {
     padding: 16px 20px;
     border: none;
     border-radius: 10px;
-    background-color: #a6cbe4;
+    background-color: #ccdbe5;
     margin-bottom: 18px;
   }
   
@@ -59,7 +59,7 @@ body {
     margin-bottom: 200px;
     position: absolute;
     border-radius: 20px;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.584);
     color: rgb(255, 255, 255);
     top: 50%;
     left: 50%;
@@ -83,9 +83,6 @@ body {
     top: -50px;
     left: calc(50% - 50px);
   }
-  
-
-  
 
   .login-box h1 {
     margin: 0;
@@ -114,6 +111,14 @@ body {
     height: 40px;
     color: rgb(255, 255, 255);
     font-size: 16px;
+  }
+
+  input[type="text"]::placeholder{
+      color: rgba(255, 255, 255, 0.832);
+  }
+
+  input[type="password"]::placeholder{
+    color: rgba(255, 255, 255, 0.832);
   }
   
   .login-box input[type="submit"] {

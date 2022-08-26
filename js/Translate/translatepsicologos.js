@@ -34,7 +34,7 @@ image.src = '../img/united-kingdom.png';
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "About us"
-                document.querySelector("#fo3").innerHTML = "Psycologists"
+                document.querySelector("#fo3").innerHTML = "Psychologists"
                 document.querySelector("#fo4").innerHTML = "Help centers";
                 document.querySelector(".social-text").innerHTML = "Our social networks!"
                 // checkedbutton
@@ -62,12 +62,17 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#work3").innerHTML = "Psicólogo"
                 document.querySelector("#work4").innerHTML = "Psicólogo"
                 document.querySelector("#work5").innerHTML = "Psicólogo"
+                document.querySelector("#saber").innerHTML = "Saber más";
+                document.querySelector("#saber2").innerHTML = "Saber más";
+                document.querySelector("#saber3").innerHTML = "Saber más";
+                document.querySelector("#saber4").innerHTML = "Saber más";
+                document.querySelector("#saber5").innerHTML = "Saber más";
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -95,6 +100,11 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#work3").innerHTML = "Psychologist"
                 document.querySelector("#work4").innerHTML = "Psychologist"
                 document.querySelector("#work5").innerHTML = "Psychologist"
+                document.querySelector("#saber").innerHTML = "Know more";
+                document.querySelector("#saber2").innerHTML = "Know more";
+                document.querySelector("#saber3").innerHTML = "Know more";
+                document.querySelector("#saber4").innerHTML = "Know more";
+                document.querySelector("#saber5").innerHTML = "Know more";
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "About us"
@@ -126,12 +136,17 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#work3").innerHTML = "Psicólogo"
                 document.querySelector("#work4").innerHTML = "Psicólogo"
                 document.querySelector("#work5").innerHTML = "Psicólogo"
+                document.querySelector("#saber").innerHTML = "Saber más";
+                document.querySelector("#saber2").innerHTML = "Saber más";
+                document.querySelector("#saber3").innerHTML = "Saber más";
+                document.querySelector("#saber4").innerHTML = "Saber más";
+                document.querySelector("#saber5").innerHTML = "Saber más";
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda"
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";

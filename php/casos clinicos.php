@@ -132,7 +132,7 @@ function traducir(){
           <li class="deri3">Los cambios en sus cuerpos</li><br>
           <li class="deri4">Los problemas con sus amigos y/o pares en la escuela</li><br>
           <li class="deri5">La separación o divorcio de sus padres</li><br>
-          <p ><a href="../php/Estres.php" class="leer2">Read More...</a></p><br>
+          <p ><a href="../php/Estres.php" class="leer50">Read More...</a></p><br>
 
          <blockquote><h2 class="context10">Desarrollo personal</h2><br></blockquote>
             <p class="context11">Mis problemas comenzaron cuando fui transferido a un club de los denominados grandes. Siempre había soñado en llegar allí por ser hincha fanático desde mi infancia. ¿Y quién no querría jugar en un club grande de primera? </p>

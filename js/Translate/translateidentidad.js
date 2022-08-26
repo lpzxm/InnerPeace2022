@@ -58,27 +58,27 @@ image.src = '../img/united-kingdom.png';
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
                 // Vision
-                document.querySelector("#vision").innerHTML = "Vision"
-                document.querySelector("#vi1").innerHTML = "1.Queremos crear valor a todos nuestros estudiantes y personal interno; buscando un crecimiento continuo y sostenible bajo la óptica de la innovación constante. "
-                document.querySelector("#vi2").innerHTML = "2.Queremos satisfacer lo que nuestros estudiantes nos solicitan siempre, bajo el marco de calidad, seguridad e integridad"
-                document.querySelector("#vi3").innerHTML = "3.Queremos mejorar su calidad y desarrollo académico."
+                document.querySelector("#vision").innerHTML = "Visión"
+                document.querySelector("#vi1").innerHTML = "1. Queremos crear valor a todos nuestros estudiantes y personal interno; buscando un crecimiento continuo y sostenible bajo la óptica de la innovación constante. "
+                document.querySelector("#vi2").innerHTML = "2. Queremos satisfacer lo que nuestros estudiantes nos solicitan siempre, bajo el marco de calidad, seguridad e integridad."
+                document.querySelector("#vi3").innerHTML = "3. Queremos mejorar su calidad y desarrollo académico."
                 // Mision
-                document.querySelector("#mision").innerHTML = "Mision"
+                document.querySelector("#mision").innerHTML = "Misión"
                 document.querySelector("#mision_content").innerHTML = "Brindar una atención psicológica oportuna y eficaz a los estudiantes con problemas de estrés, ansiedad y depresión en todas sus dimensiones, por medio de procesos de asistencia psicológica inmediata (intervención en crisis, asesorías en profundidad, psicoterapia individual y talleres de grupo), orientados a mejorar su calidad de vida y permitir a su vez, el desarrollo de competencias clave para su desenvolvimiento feliz en la vida. Nuestro enfoque proactivo para el desarrollo de mejores prácticas y métodos eficaces de tratamiento nos ayudará a lograr nuestra razón de ser."
                 // Valores-card
                 document.querySelector("#valores").innerHTML = "Nuestros valores"
                 document.querySelector("#card1").innerHTML = "Honestidad"
-                document.querySelector("#card1_content").innerHTML = "La honestidad nos representa, debido a que brindamos información clara y conscisa con el fin de crear confianza y paz en el visitante de nuestra página, tambíen promoviendo una salida eficaz y verdadera para una mejor salud mental"
+                document.querySelector("#card1_content").innerHTML = "La honestidad nos representa, debido a que brindamos información clara y concisa con el fin de crear confianza y paz en el visitante de nuestra página, también promoviendo una salida eficaz y verdadera para una mejor salud mental."
                 document.querySelector("#card2").innerHTML = "Responsabilidad"
-                document.querySelector("#card2_content").innerHTML = "Llevamos acabo el proceso de responsabilidad con el fin de hacernos cargo de todo tipo de caso psicologico en jovenes del Colegio Don Bosco y brindarles una mano para que se sientan bien consigo mismos."
+                document.querySelector("#card2_content").innerHTML = "Llevamos acabo el proceso de responsabilidad con el fin de hacernos cargo de todo tipo de caso psicológico en jóvenes del Colegio Don Bosco y brindarles una mano para que se sientan bien consigo mismos."
                 document.querySelector("#card3").innerHTML = "Respeto"
-                document.querySelector("#card3_content").innerHTML = "El principal valor que nos identifica ante todo, ya que manejamos con srguridad y privacidad todos tus datos e información, además de interactuar contigo de la manera más etica posible generando fe y amistad de nosotros hacia ti."
+                document.querySelector("#card3_content").innerHTML = "El principal valor que nos identifica ante todo, ya que manejamos con seguridad y privacidad todos tus datos e información, además de interactuar contigo de la manera más ética posible, generando fe y amistad de nosotros hacia ti."
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
                 document.querySelector("#fo3").innerHTML = "Psicólogos"
                 document.querySelector("#fo4").innerHTML = "Centros de ayuda";
-                document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -137,32 +137,32 @@ image.src = '../img/united-kingdom.png';
                   if (document.querySelector("#Salir")) {
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
-                  // Vision
-                  document.querySelector("#vision").innerHTML = "Vision"
-                  document.querySelector("#vi1").innerHTML = "1.Queremos crear valor a todos nuestros estudiantes y personal interno; buscando un crecimiento continuo y sostenible bajo la óptica de la innovación constante. "
-                  document.querySelector("#vi2").innerHTML = "2.Queremos satisfacer lo que nuestros estudiantes nos solicitan siempre, bajo el marco de calidad, seguridad e integridad"
-                  document.querySelector("#vi3").innerHTML = "3.Queremos mejorar su calidad y desarrollo académico."
-                  // Mision
-                  document.querySelector("#mision").innerHTML = "Mision"
-                  document.querySelector("#mision_content").innerHTML = "Brindar una atención psicológica oportuna y eficaz a los estudiantes con problemas de estrés, ansiedad y depresión en todas sus dimensiones, por medio de procesos de asistencia psicológica inmediata (intervención en crisis, asesorías en profundidad, psicoterapia individual y talleres de grupo), orientados a mejorar su calidad de vida y permitir a su vez, el desarrollo de competencias clave para su desenvolvimiento feliz en la vida. Nuestro enfoque proactivo para el desarrollo de mejores prácticas y métodos eficaces de tratamiento nos ayudará a lograr nuestra razón de ser."
-                  // Valores-card
-                  document.querySelector("#valores").innerHTML = "Nuestros valores"
-                  document.querySelector("#card1").innerHTML = "Honestidad"
-                  document.querySelector("#card1_content").innerHTML = "La honestidad nos representa, debido a que brindamos información clara y conscisa con el fin de crear confianza y paz en el visitante de nuestra página, tambíen promoviendo una salida eficaz y verdadera para una mejor salud mental"
-                  document.querySelector("#card2").innerHTML = "Responsabilidad"
-                  document.querySelector("#card2_content").innerHTML = "Llevamos acabo el proceso de responsabilidad con el fin de hacernos cargo de todo tipo de caso psicologico en jovenes del Colegio Don Bosco y brindarles una mano para que se sientan bien consigo mismos."
-                  document.querySelector("#card3").innerHTML = "Respeto"
-                  document.querySelector("#card3_content").innerHTML = "El principal valor que nos identifica ante todo, ya que manejamos con srguridad y privacidad todos tus datos e información, además de interactuar contigo de la manera más etica posible generando fe y amistad de nosotros hacia ti."
-                  // footer
-                  document.querySelector("#fo1").innerHTML = "Inicio"
-                  document.querySelector("#fo2").innerHTML = "Sobre nosotros"
-                  document.querySelector("#fo3").innerHTML = "Psicólogos"
-                  document.querySelector("#fo4").innerHTML = "Centros de ayuda"
-                  document.querySelector(".social-text").innerHTML = "Nuestras redes sociales!"
-                  // checkedbutton
-                    document.querySelector(".trans").appendChild(image).style.width = "50px";
-                    document.querySelector(".trans").appendChild(img).style.width = "50px";
-                    document.querySelector(".trans").removeChild(img);
+                                  // Vision
+                document.querySelector("#vision").innerHTML = "Visión"
+                document.querySelector("#vi1").innerHTML = "1. Queremos crear valor a todos nuestros estudiantes y personal interno; buscando un crecimiento continuo y sostenible bajo la óptica de la innovación constante. "
+                document.querySelector("#vi2").innerHTML = "2. Queremos satisfacer lo que nuestros estudiantes nos solicitan siempre, bajo el marco de calidad, seguridad e integridad."
+                document.querySelector("#vi3").innerHTML = "3. Queremos mejorar su calidad y desarrollo académico."
+                // Mision
+                document.querySelector("#mision").innerHTML = "Misión"
+                document.querySelector("#mision_content").innerHTML = "Brindar una atención psicológica oportuna y eficaz a los estudiantes con problemas de estrés, ansiedad y depresión en todas sus dimensiones, por medio de procesos de asistencia psicológica inmediata (intervención en crisis, asesorías en profundidad, psicoterapia individual y talleres de grupo), orientados a mejorar su calidad de vida y permitir a su vez, el desarrollo de competencias clave para su desenvolvimiento feliz en la vida. Nuestro enfoque proactivo para el desarrollo de mejores prácticas y métodos eficaces de tratamiento nos ayudará a lograr nuestra razón de ser."
+                // Valores-card
+                document.querySelector("#valores").innerHTML = "Nuestros valores"
+                document.querySelector("#card1").innerHTML = "Honestidad"
+                document.querySelector("#card1_content").innerHTML = "La honestidad nos representa, debido a que brindamos información clara y concisa con el fin de crear confianza y paz en el visitante de nuestra página, también promoviendo una salida eficaz y verdadera para una mejor salud mental."
+                document.querySelector("#card2").innerHTML = "Responsabilidad"
+                document.querySelector("#card2_content").innerHTML = "Llevamos acabo el proceso de responsabilidad con el fin de hacernos cargo de todo tipo de caso psicológico en jóvenes del Colegio Don Bosco y brindarles una mano para que se sientan bien consigo mismos."
+                document.querySelector("#card3").innerHTML = "Respeto"
+                document.querySelector("#card3_content").innerHTML = "El principal valor que nos identifica ante todo, ya que manejamos con seguridad y privacidad todos tus datos e información, además de interactuar contigo de la manera más ética posible, generando fe y amistad de nosotros hacia ti."
+                // footer
+                document.querySelector("#fo1").innerHTML = "Inicio"
+                document.querySelector("#fo2").innerHTML = "Sobre nosotros"
+                document.querySelector("#fo3").innerHTML = "Psicólogos"
+                document.querySelector("#fo4").innerHTML = "Centros de ayuda";
+                document.querySelector(".social-text").innerHTML = "¡Nuestras redes sociales!"
+                // checkedbutton
+                document.querySelector(".trans").appendChild(image).style.width = "50px";
+                document.querySelector(".trans").appendChild(img).style.width = "50px";
+                document.querySelector(".trans").removeChild(img);
             }
         }
     }
