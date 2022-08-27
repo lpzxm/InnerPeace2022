@@ -23,7 +23,7 @@ $usuarios = "SELECT * FROM datos_estudiante"
           <span class="nav-item">Panel de control</span>
         </a>
           <i class="fas fa-comment"></i>
-         <a href="../php/index.php"> <span class="nav-item">Administrador de tareas</span></a>
+         <a href="../php/tarea.php"> <span class="nav-item">Administrador de tareas</span></a>
         </a></li>
           <i class="fas fa-sign-out-alt"></i>
       <a href="../php/InicioSesion copy.php">   <span class="nav-item">Log out</span></a> 
