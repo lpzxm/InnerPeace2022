@@ -15,20 +15,26 @@ $usuarios = "SELECT * FROM datos_estudiante"
   <div class="container">
     <nav>
       <ul>
+        
+      <div class="translatebutton">
+                <input type="checkbox" name="translate" id="translate">
+             <label for="translate" class="trans"></label>
+         </div>
         <li><a href="#" class="logo">
-          <span class="nav-item">Administrador</span>
+          <span class="nav-item" id="Link1">Administrador</span>
         </a></li>
         <li><a href="#">
           <i class="fas fa-menorah"></i>
-          <span class="nav-item">Panel de control</span>
+          <span class="nav-item" id="Link2">Panel de control</span>
         </a>
           <i class="fas fa-comment"></i>
-         <a href="../php/tarea.php"> <span class="nav-item">Administrador de tareas</span></a>
+         <a href="../php/tarea.php"> <span class="nav-item" id="Link3">Administrador de tareas</span></a>
         </a></li>
           <i class="fas fa-sign-out-alt"></i>
-      <a href="../php/InicioSesion copy.php">   <span class="nav-item">Log out</span></a> 
+      <a href="../php/InicioSesion copy.php">   <span class="nav-item" id="Link4">Salir</span></a> 
         </a></li>
       </ul>
+
     </nav>
 
     
@@ -37,17 +43,17 @@ $usuarios = "SELECT * FROM datos_estudiante"
     <section class="main">
       <section class="attendance">
         <div class="attendance-list">
-          <h1>Panel de control</h1>
+          <h1 id="Link5">Panel de control</h1>
           <table class="table">
             <thead>
               <tr>
-                <th>id</th>
-                <th>Nombre</th>
-                <th>Especialidad</th>
-                <th>Codigo de estuydiante</th>
-                <th>Año</th>
-                <th>Seccion</th>
-                <th>Fecha de nacimiento</th>
+                <th id="Link6">id</th>
+                <th id="Link7">Nombre</th>
+                <th id="Link8">Especialidad</th>
+                <th id="Link9">Codigo de estudiante</th>
+                <th id="Link10">Año</th>
+                <th id="Link11">Seccion</th>
+                <th id="Link12">Fecha de nacimiento</th>
 
               </tr>
             </thead>
@@ -73,14 +79,12 @@ $usuarios = "SELECT * FROM datos_estudiante"
         </div>
       </section> 
     </section>
+    
 
 
   </div>
 
-
-<!--
-    <script src="../js/Dashboard.js"></script>
-    <script src="../js/admin.js"></script>*/ -->
+    <script src="../js/Translate/admin.js"></script>
 
 
    

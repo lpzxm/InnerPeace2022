@@ -8,45 +8,36 @@ image.src = '../img/united-kingdom.png'
         if(idiomaStorage){
             if (idiomaStorage.idioma == "en") {
                 localStorage.setItem("idioma", "en")
-                document.querySelector("#Link1").innerHTML ="Panel";
-                document.querySelector("#Link2").innerHTML ="Students";
-                document.querySelector("#Link3").innerHTML ="Leave";
-                document.querySelector("#Link4").innerHTML ="Students";
-                document.querySelector("#Link5").innerHTML ="daily views";
-                document.querySelector("#Link6").innerHTML ="Commets";
-                document.querySelector("#Link7").innerHTML ="recent uses";
-                document.querySelector("#Link8").innerHTML ="see all";
-                document.querySelector("#Link9").innerHTML ="Name";
-                document.querySelector("#Link10").innerHTML ="Code";
+                document.querySelector("#Link1").innerHTML ="administrator";
+                document.querySelector("#Link2").innerHTML ="Control Panel";
+                document.querySelector("#Link3").innerHTML ="Task Manager";
+                document.querySelector("#Link4").innerHTML ="Log out";
+                document.querySelector("#Link5").innerHTML ="Panel de control";
+                document.querySelector("#Link6").innerHTML ="id";
+                document.querySelector("#Link7").innerHTML ="Name";
+                document.querySelector("#Link8").innerHTML ="Specialty";
+                document.querySelector("#Link9").innerHTML ="student code";
+                document.querySelector("#Link10").innerHTML ="Year";
                 document.querySelector("#Link11").innerHTML ="Section";
-                document.querySelector("#Link12").innerHTML ="Specialty";
-                document.querySelector("#Link13").innerHTML ="Graphic design";
-                document.querySelector("#Link14").innerHTML ="Students";
-                document.querySelector("#Link15").innerHTML ="recent users";
-                document.querySelector("#Link16").innerHTML ="Graphic design";
+                document.querySelector("#Link12").innerHTML ="Date of Birth";
 
-                
                  // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
                 document.querySelector(".trans").removeChild(img);
                 }  else{localStorage.setItem("idioma","es") 
-                document.querySelector("#Link1").innerHTML ="Panel";
-                document.querySelector("#Link2").innerHTML ="Estudiantes";
-                document.querySelector("#Link3").innerHTML ="Salir";
-                document.querySelector("#Link4").innerHTML ="Estudiantes";
-                document.querySelector("#Link5").innerHTML ="Vistas diarias";
-                document.querySelector("#Link6").innerHTML ="Comentarios";
-                document.querySelector("#Link7").innerHTML ="Usos recientes";
-                document.querySelector("#Link8").innerHTML ="mirar todo";
-                document.querySelector("#Link9").innerHTML ="Nombre";
-                document.querySelector("#Link10").innerHTML ="Codigo";
+                document.querySelector("#Link1").innerHTML ="Administrador";
+                document.querySelector("#Link2").innerHTML ="Panel de control";
+                document.querySelector("#Link3").innerHTML ="Administrador de tareas";
+                document.querySelector("#Link4").innerHTML ="Salir";
+                document.querySelector("#Link5").innerHTML ="Panel de control";
+                document.querySelector("#Link6").innerHTML ="id";
+                document.querySelector("#Link7").innerHTML ="Nombre";
+                document.querySelector("#Link8").innerHTML ="Especialidad";
+                document.querySelector("#Link9").innerHTML ="Codigo de estudiante";
+                document.querySelector("#Link10").innerHTML ="Año";
                 document.querySelector("#Link11").innerHTML ="Seccion";
-                document.querySelector("#Link12").innerHTML ="Especialidad";
-                document.querySelector("#Link13").innerHTML ="Diseño";
-                document.querySelector("#Link14").innerHTML ="Estudiantes";
-                document.querySelector("#Link15").innerHTML ="Usuarios recientes";
-                document.querySelector("#Link16").innerHTML ="Diseño grafico";
+                document.querySelector("#Link12").innerHTML ="Fecha de nacimiento";
 
 
                 /////
@@ -59,22 +50,18 @@ image.src = '../img/united-kingdom.png'
             else if (input){
                 if (!input.checked){
                     localStorage.setItem("idioma", "en")
-                    document.querySelector("#Link1").innerHTML ="Panel";
-                    document.querySelector("#Link2").innerHTML ="Students";
-                    document.querySelector("#Link3").innerHTML ="Leave";
-                    document.querySelector("#Link4").innerHTML ="Students";
-                    document.querySelector("#Link5").innerHTML ="daily views";
-                    document.querySelector("#Link6").innerHTML ="Commets";
-                    document.querySelector("#Link7").innerHTML ="recent uses";
-                    document.querySelector("#Link8").innerHTML ="see all";
-                    document.querySelector("#Link9").innerHTML ="Name";
-                    document.querySelector("#Link10").innerHTML ="Code";
+                    document.querySelector("#Link1").innerHTML ="administrator";
+                    document.querySelector("#Link2").innerHTML ="Control Panel";
+                    document.querySelector("#Link3").innerHTML ="Task Manager";
+                    document.querySelector("#Link4").innerHTML ="Log out";
+                    document.querySelector("#Link5").innerHTML ="Panel de control";
+                    document.querySelector("#Link6").innerHTML ="ids";
+                    document.querySelector("#Link7").innerHTML ="Name";
+                    document.querySelector("#Link8").innerHTML ="Specialty";
+                    document.querySelector("#Link9").innerHTML ="student code";
+                    document.querySelector("#Link10").innerHTML ="Year";
                     document.querySelector("#Link11").innerHTML ="Section";
-                    document.querySelector("#Link12").innerHTML ="Specialty";
-                    document.querySelector("#Link13").innerHTML ="Graphic design";
-                    document.querySelector("#Link14").innerHTML ="Students";
-                    document.querySelector("#Link15").innerHTML ="recent users";
-                    document.querySelector("#Link16").innerHTML ="Graphic design";
+                    document.querySelector("#Link12").innerHTML ="Date of Birth";
 
                     /*
                     document.querySelector("#link1").innerHTML = "Psychologists";
@@ -97,23 +84,19 @@ image.src = '../img/united-kingdom.png'
 
                 }
                 else{  localStorage.setItem("idioma", "es")
-
-                document.querySelector("#Link1").innerHTML ="Panel";
-                document.querySelector("#Link2").innerHTML ="Estudiantes";
-                document.querySelector("#Link3").innerHTML ="Salir";
-                document.querySelector("#Link4").innerHTML ="Estudiantes";
-                document.querySelector("#Link5").innerHTML ="Vistas diarias";
-                document.querySelector("#Link6").innerHTML ="Comentarios";
-                document.querySelector("#Link7").innerHTML ="Usos recientes";
-                document.querySelector("#Link8").innerHTML ="mirar todo";
-                document.querySelector("#Link9").innerHTML ="Nombre";
-                document.querySelector("#Link10").innerHTML ="Codigo";
+                document.querySelector("#Link1").innerHTML ="Administrador";
+                document.querySelector("#Link2").innerHTML ="Panel de control";
+                document.querySelector("#Link3").innerHTML ="Administrador de tareas";
+                document.querySelector("#Link4").innerHTML ="Salir";
+                document.querySelector("#Link5").innerHTML ="Panel de control";
+                document.querySelector("#Link6").innerHTML ="id";
+                document.querySelector("#Link7").innerHTML ="Nombre";
+                document.querySelector("#Link8").innerHTML ="Especialidad";
+                document.querySelector("#Link9").innerHTML ="Codigo de estudiante";
+                document.querySelector("#Link10").innerHTML ="Año";
                 document.querySelector("#Link11").innerHTML ="Seccion";
-                document.querySelector("#Link12").innerHTML ="Especialidad";
-                document.querySelector("#Link13").innerHTML ="Diseño";
-                document.querySelector("#Link14").innerHTML ="Estudiantes";
-                document.querySelector("#Link15").innerHTML ="Usuarios recientes";
-                document.querySelector("#Link16").innerHTML ="Diseño grafico";
+                document.querySelector("#Link12").innerHTML ="Fecha de nacimiento";
+
                  /*   document.querySelector("#link1").innerHTML = "Psicologos";
                     
                     if (document.querySelector("#Logout")) {
@@ -140,5 +123,4 @@ image.src = '../img/united-kingdom.png'
         traducir(null, input)
        
     })
-
 
