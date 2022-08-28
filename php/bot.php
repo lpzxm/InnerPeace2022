@@ -39,7 +39,6 @@ function traducir(){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot con php</title>
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/botfooter.css">
     <link rel="stylesheet" href="../css/bootstyle.css">
     <link rel="stylesheet" href="../css/footer.css">
 
@@ -155,7 +154,7 @@ function traducir(){
     </footer>
 
     
-
+    <script src="../js/app.js"></script>
     <script src="../js/Translate/translatebot.js"></script> 
         
 </body>

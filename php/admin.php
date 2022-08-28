@@ -26,7 +26,7 @@ $usuarios = "SELECT * FROM datos_estudiante"
         <li><a href="#">
           <span class="nav-item" id="Link2">Panel de control</span>
         </a>
-         <a href="../php/tarea.php"> <span class="nav-item" id="Link3">Administrador de tareas</span></a>
+         <a href="../php/tarea.php"><span class="nav-item" id="Link3">Administrador de tareas</span></a>
         </a></li>
       <a href="../php/InicioSesion copy.php">   <span class="nav-item" id="Link4">Salir</span></a> 
         </a></li>

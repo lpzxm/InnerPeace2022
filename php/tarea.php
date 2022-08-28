@@ -79,11 +79,6 @@
 
       <div id="newtask">
         <?php include('../php/alert.php') ?>
-        
-    
-
-
-
 
         <h3 id="Link1">Lista de tareas</h3>
         <form action="tarea.php" method="post" id="taskform">

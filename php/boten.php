@@ -147,27 +147,9 @@ function traducir(){
                 <input type="checkbox" name="translate" id="translate">
              <label for="translate" class="trans"></label>
          </div>
-
-
-
-
-         
-   
-
-
-
-
-
-
-
-
-
-
-
-
     </footer>
 
-    
+     <script src="../js/appen.js"></script>
     <script src="../js/Translate/translatebot.js"></script> 
         
 </body>
