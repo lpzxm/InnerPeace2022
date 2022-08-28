@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
 
-/*Step 1: CSS*/
+
 *,
 *:before,
 *:after {
@@ -27,7 +27,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*Step 2: CSS*/
+
 #newtask {
   position: relative;
   padding: 30px 20px;
@@ -66,7 +66,7 @@ body {
   border-radius: 5px;
 }
 
-/*Step 3: CSS*/
+
 #tasks {
   border-radius: 10px;
   width: 100%;
@@ -86,8 +86,7 @@ body {
   margin-bottom: 8px;
   padding: 5px 10px;
   line-height: 35px;
-  /*justify-content: space-between;
-  display: flex;*/
+
 }
 .task span {
   font-size: 15px;
@@ -110,7 +109,7 @@ body {
   background-color: #3d9afb;
 }
 
-/* Alert Messages  */
+
 .alert {
   padding: 15px;
   margin-bottom: 20px;
@@ -150,4 +149,8 @@ body {
 
 h3{
   font-family: 'DynaPuff', cursive;
+}
+
+#translate{
+  display: none;
 }

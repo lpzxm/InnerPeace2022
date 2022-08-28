@@ -70,7 +70,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../../css/assets/fontawesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/style.css"/>
     <title>Lista de tareas</title>
 </head>
@@ -108,8 +107,8 @@
         ?>
         <div class="task">
             <span><?php echo $t['task'] ?></span>
-            <a href="tarea.php?action=edit&id=<?php echo $t['id'] ?>" ><i class="fa fa-edit"></i></a>
-            <a onclick="return confirm('Quieres borrar esta tarea?')" href="../php/tarea.php?action=delete&id=<?php echo $t['id'] ?>" class="delete button">Borrar<i class="fa fa-trash-alt"></i></a>
+            <a href="tarea.php?action=edit&id=<?php echo $t['id'] ?>" ></a>
+            <a id="delete" onclick="return confirm('Quieres borrar esta tarea?')" href="../php/tarea.php?action=delete&id=<?php echo $t['id'] ?>" class="delete button">Borrar<i class="fa fa-trash-alt"></i></a>
         </div>
         <?php }} ?>
       </div>

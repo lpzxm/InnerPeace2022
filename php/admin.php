@@ -24,13 +24,10 @@ $usuarios = "SELECT * FROM datos_estudiante"
           <span class="nav-item" id="Link1">Administrador</span>
         </a></li>
         <li><a href="#">
-          <i class="fas fa-menorah"></i>
           <span class="nav-item" id="Link2">Panel de control</span>
         </a>
-          <i class="fas fa-comment"></i>
          <a href="../php/tarea.php"> <span class="nav-item" id="Link3">Administrador de tareas</span></a>
         </a></li>
-          <i class="fas fa-sign-out-alt"></i>
       <a href="../php/InicioSesion copy.php">   <span class="nav-item" id="Link4">Salir</span></a> 
         </a></li>
       </ul>
