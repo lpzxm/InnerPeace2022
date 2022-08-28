@@ -15,7 +15,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#P2").innerHTML = "Password"
                 document.getElementsByName('password')[0].placeholder = "Enter your password"
                 document.querySelector("#V1").value = "Log In"
-                document.querySelector("#show").innerHTML = "Show password"
+                
                 document.querySelector("#S1").innerHTML = "You do not have an account? Sign up!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -30,7 +30,7 @@ image.src = '../img/united-kingdom.png';
                 document.getElementsByName('username')[0].placeholder="Ingresa tu correo electrónico";
                 document.querySelector("#P2").innerHTML = "Contraseña"
                 document.getElementsByName('password')[0].placeholder = "Ingresa tu contraseña"
-                document.querySelector("#show").innerHTML = "Mostrar contraseña"
+
                 document.querySelector("#V1").value = "Iniciar sesión"
                 document.querySelector("#S1").innerHTML = "¿No tienes una cuenta? ¡Regístrate!"
                 // checkedbutton
@@ -49,7 +49,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#P2").innerHTML = "Password"
                 document.getElementsByName('password')[0].placeholder = "Enter your password"
                 document.querySelector("#V1").value = "Log In"
-                document.querySelector("#show").innerHTML = "Show password"
+                
                 document.querySelector("#S1").innerHTML = "You do not have an account? Sign up!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -65,7 +65,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#P2").innerHTML = "Contraseña"
                 document.getElementsByName('password')[0].placeholder = "Ingresa tu contraseña"
                 document.querySelector("#V1").value = "Iniciar sesión"
-                document.querySelector("#show").innerHTML = "Mostrar contraseña"
+
                 document.querySelector("#S1").innerHTML = "¿No tienes una cuenta? ¡Regístrate!"
                 // checkedbutton
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
