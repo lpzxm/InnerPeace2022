@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-08-2022 a las 06:49:40
+-- Tiempo de generación: 28-08-2022 a las 07:01:52
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -39,28 +39,6 @@ CREATE TABLE `administrador` (
 
 INSERT INTO `administrador` (`id`, `id_usuario`, `id_psicologo`) VALUES
 (1, 1, 1);
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `bot`
---
-
-CREATE TABLE `bot` (
-  `id` int(11) NOT NULL,
-  `Preguntas_preregistradas` varchar(200) NOT NULL,
-  `Respuestas_preregistradas` varchar(200) NOT NULL,
-  `Respuestas_usuario` varchar(200) NOT NULL,
-  `Respuestas_concurrentes` varchar(200) NOT NULL,
-  `id_estudiante` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `bot`
---
-
-INSERT INTO `bot` (`id`, `Preguntas_preregistradas`, `Respuestas_preregistradas`, `Respuestas_usuario`, `Respuestas_concurrentes`, `id_estudiante`) VALUES
-(0, '¿Como te sientes hoy?\r\n', 'Me siento insatisfecho.', 'Me siento mal', 'Tengo problemas académicos por mis padres.', 0);
 
 -- --------------------------------------------------------
 
