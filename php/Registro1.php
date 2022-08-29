@@ -119,6 +119,11 @@
                   </g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g> </g><g></g><g></g><g></g><g></g><g></g><g></g>
               </svg></span>
         </div>
+        <div class="pass-strength">
+          <div class="strength-percent"><span></span></div>
+          <span class="strength-label">Strength</span>
+        </div>
+        <br>
         <a href="../php/aviso de privacidad.php" class="poli">Politica de privacidad</a><br><br>
 
         <input type="submit" value="Registrarme!" id="TitleL">

@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
     background: url(../img/back_formm.jpg);
     background-size: 130%;
     background-repeat: no-repeat;
-    font-family: sans-serif;
     height: 100vh;
   }
 

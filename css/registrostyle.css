@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
     background: url(../img/back_formm.jpg);
     background-size: 130%;
     background-repeat: no-repeat;
-    font-family: sans-serif;
     height: 150vh;
   }
 
@@ -54,9 +58,9 @@ body {
 
   .login-box {
     width: 500px;
-    height: 960px;
+    height: 995px;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     position: absolute;
     border-radius: 20px;
     background: rgba(0, 0, 0, 0.584);
@@ -121,6 +125,7 @@ body {
     height: 20px;
     fill: white;
   }
+
   
   .login-box input[type="text"], .login-box input[type="password"] {
     border: none;
@@ -130,6 +135,46 @@ body {
     height: 40px;
     color: rgb(255, 255, 255);
     font-size: 16px;
+  }
+  
+  .pass-strength {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+  }
+  
+  .strength-label {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .strength-percent {
+    flex: 1;
+    height: 5px;
+    border-radius: 10px;
+    display: block;
+    background: #eee;
+  }
+  
+  .strength-percent span {
+    display: block;
+    height: 100%;
+    transition: all 0.4s;
+    border-radius: 10px;
+  }
+  
+  .weak {
+    background: red;
+    width: 33%;
+  }
+  
+  .average {
+    background: #ffd000;
+    width: 66%;
+  }
+  
+  .strong {
+    background: green;
+    width: 100%;
   }
 
   input[type="text"]::placeholder{
