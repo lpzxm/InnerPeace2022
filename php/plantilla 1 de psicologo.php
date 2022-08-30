@@ -36,6 +36,8 @@ function traducir(){
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/Chatbot.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../css/informacion.css">
     <link rel="stylesheet" href="../css/diseño de la plantilla del psicologo.css">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace-Psicologo</title>
@@ -69,43 +71,152 @@ function traducir(){
     <div class="chat-bar-collapsible">
         <button id="chat-button" type="button" class="collapsible">PeaceBot 🤖</button>
     </div></a>
+</head>
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile">
+                    <div class="image">
+                        <img src="/avatar.jpg" alt="">
+                    </div>
+                    <h2 class="name">Lorem Dola Ipsum</h2>
+                    <p class="career">Psicologo</p>
+                </div>
+                <div class="contact-info">
+                    <h3 class="main-title">Informacion de contacto</h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            07661892982
+                        </li>
+                        <li>
+                            <i class="fa fa-fax"></i>
+                            loremipsum@gmail.com
+                        </li>
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            www.loremipsum.com
+                        </li>
+                        <li>
+                            <i class="fa fa-facebook"></i>
+                            www.facebook.com/lorem
+                        </li>
+                        <li>
+                            <i class="fa fa-instagram"></i>
+                            @loremipsum
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            37 Pramount St, London
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <section class="about sect">
+                    <h2 class="right-title">Sobre mi</h2>
+                    <p class="para">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestias facilis ullam dolorum, reprehenderit dolorem accusantium sit quo 
+                        dolore nostrum assumenda obcaecati animi commodi nobis labore exercitationem corporis esse eveniet optio laudantium molestiae maiores pariatur nisi cumque. 
+                        Distinctio et, totam, dicta autem nostrum doloribus ipsam vel rerum, molestiae soluta laboriosam. <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto porro suscipit. 
+                        Nihil blanditiis cum voluptates odio recusandae deleniti, nulla repudiandae aliquam adipisci iusto reiciendis sequi labore quos ratione accusamus consectetur, 
+                        libero ex assumenda pariatur commodi animi nobis, dolore id.
+                    </p>
+                </section>
 
-                <section class="seccion-perfil-usuario">
-                    <div class="perfil-usuario-header">
-                        <div class="perfil-usuario-portada">
-                            <div class="perfil-usuario-avatar">
-                                <img src="../img/psicologo.png" alt="img-avatar">
-                                <button type="button" class="boton-avatar">
-                                </button>
+                <section class="experince sect">
+                    <h2 class="right-title">Experiencia</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam in sint facilis ea quidem?</h5>
+                            <p class="para">Lorem, ipsum.</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Lorem, ipsum.</h5>
+                                <p class="para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
+                                    voluptatem deleniti, 
+                                    laboriosam odio nobis quae fugit facilis quo.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="perfil-usuario-body">
-                        <div class="perfil-usuario-bio">
-                            <h3 class="titulo">Dennis Rivera</h3>
-                            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam in sint facilis ea quidem?</h5>
+                            <p class="para">Lorem, ipsum.</p>
                         </div>
-                        <div class="perfil-usuario-footer">
-                            <ul class="lista-datos">
-                                <li id="D1"> Trabajo: Psicologo estudiantil</li>
-                                <li id="D2">Formación academica:
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                </li>
-                            </ul>
-                            <ul class="lista-datos">
-                                <li id="D3">Experiencia profesional:
-                                    <li>Lorem ipsum dolor sit.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                    <li>Lorem, ipsum dolor.</li>
-                                </li>
-                                
-                            </ul>
+                    </div>
+                    <div class="timeline">
+                </section>
+                <section class="education sect">
+                    <h2 class="right-title">education</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ducimus tempore repudiandae labore commodi adipisci quidem soluta velit assumenda officia voluptatibus doloribus deserunt, vero, corrupti eum facere rem minus sit.</h5>
+                            <p class="para">Lorem, ipsum.</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Lorem, ipsum dolor.</h5>
+                                <p class="para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
+                                    voluptatem deleniti, 
+                                    laboriosam odio nobis quae fugit facilis quo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="right-tl-content">
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">University of Sussex</h5>
+                            <p class="para">2018 - Present</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <h5 class="tl-title-2">Computer Science</h5>
+                                <p class="para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
+                                    voluptatem deleniti, 
+                                    laboriosam odio nobis quae fugit facilis quo.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
+                <section class="awards sect">
+                    <h2 class="right-title">lorem</h2>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Lorem, ipsum.</h5>
+                            <p class="para">Lorem, ipsum.</p>
+                        </div>
+                        <div class="right-tl-content">
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            <h5 class="tl-title">Alphabet Inc</h5>
+                            <p class="para">June 2016</p>
+                        </div>
+                        <div class="right-tl-content">
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
 
                 <footer>
         <ul class="footer_ul">
