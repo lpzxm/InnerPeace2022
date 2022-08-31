@@ -11,7 +11,7 @@
                 localStorage.setItem("idioma", "en")
                 document.querySelector("#link1").innerHTML = "Psychologists";
                 document.querySelector("#link2").innerHTML = "Frequent questions";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonials";
                 document.querySelector("#link4").innerHTML = "About us";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Logout";
@@ -20,10 +20,12 @@
                     document.querySelector("#Salir").innerHTML = "Log In";
                 }
                 // banner
-                document.querySelector("#D1").innerHTML = "Job: Student psychologist"
-                document.querySelector("#D2").innerHTML = "Academic training:"
-                document.querySelector("#D3").innerHTML = "Professional experience:"
-        
+                document.querySelector("#D1").innerHTML = "Psychologist"
+                document.querySelector("#D2").innerHTML = "About me"
+                document.querySelector("#D3").innerHTML = "Experience"
+                document.querySelector("#D4").innerHTML = "Education"
+                document.querySelector("#D5").innerHTML = "University"
+                document.querySelector("#D6").innerHTML = "Contact information"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "About us"
@@ -39,7 +41,7 @@
                 localStorage.setItem("idioma", "es")
                 document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas Frecuentes";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonios";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Salir";
@@ -48,9 +50,12 @@
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
                 // banner
-                document.querySelector("#D1").innerHTML = "Trabajo:Psicólogo estudiantil"
-                document.querySelector("#D2").innerHTML = "Formación academica"
-                document.querySelector("#D3").innerHTML = "Experiencia profesional"
+                document.querySelector("#D1").innerHTML = "Psicologo"
+                document.querySelector("#D2").innerHTML = "Sobre mí"
+                document.querySelector("#D3").innerHTML = "Experiencia"
+                document.querySelector("#D4").innerHTML = "Educación"
+                document.querySelector("#D5").innerHTML = "Universidad"
+                document.querySelector("#D6").innerHTML = "Información de contacto"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"
@@ -68,7 +73,7 @@
                 localStorage.setItem("idioma", "en")
                 document.querySelector("#link1").innerHTML = "Psychologists";
                 document.querySelector("#link2").innerHTML = "Frequent questions";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonials";
                 document.querySelector("#link4").innerHTML = "About us";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Logout";
@@ -77,9 +82,12 @@
                     document.querySelector("#Salir").innerHTML = "Log In";
                 }
                 // banner
-                document.querySelector("#D1").innerHTML = "Job: Student psychologist"
-                document.querySelector("#D2").innerHTML = "Academic training:"
-                document.querySelector("#D3").innerHTML = "Professional experience:"
+                document.querySelector("#D1").innerHTML = "Psychologist"
+                document.querySelector("#D2").innerHTML = "About me"
+                document.querySelector("#D3").innerHTML = "Experience"
+                document.querySelector("#D4").innerHTML = "Education"
+                document.querySelector("#D5").innerHTML = "University"
+                document.querySelector("#D6").innerHTML = "Contact information"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Home"
                 document.querySelector("#fo2").innerHTML = "About us"
@@ -95,7 +103,7 @@
                 localStorage.setItem("idioma", "es")
                 document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas Frecuentes";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonios";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Salir";
@@ -104,9 +112,12 @@
                     document.querySelector("#Salir").innerHTML = "Entrar";
                 }
                 // banner
-                document.querySelector("#D1").innerHTML = "Trabajo:Psicólogo estudiantil"
-                document.querySelector("#D2").innerHTML = "Formación academica"
-                document.querySelector("#D3").innerHTML = "Experiencia profesional"
+                document.querySelector("#D1").innerHTML = "Psicologo"
+                document.querySelector("#D2").innerHTML = "Sobre mí"
+                document.querySelector("#D3").innerHTML = "Experiencia"
+                document.querySelector("#D4").innerHTML = "Educación"
+                document.querySelector("#D5").innerHTML = "Universidad"
+                document.querySelector("#D6").innerHTML = "Información de contacto"
                 // footer
                 document.querySelector("#fo1").innerHTML = "Inicio"
                 document.querySelector("#fo2").innerHTML = "Sobre nosotros"

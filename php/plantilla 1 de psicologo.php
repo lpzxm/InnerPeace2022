@@ -36,9 +36,8 @@ function traducir(){
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/Chatbot.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="../css/informacion.css">
-    <link rel="stylesheet" href="../css/diseño de la plantilla del psicologo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace-Psicologo</title>
 </head>
@@ -55,7 +54,7 @@ function traducir(){
         <ul>
             <li><a href="../php/Psicologos.php" class="navlink" id="link1">Psicologos</a></li>
             <li><a href="../php/FAQ.php" class="navlink" id="link2">Preguntas frecuentes</a></li>
-            <li><a href="../php/casos clinicos.php" class="navlink" id="link3">Blog</a></li>
+            <li><a href="../php/casos clinicos.php" class="navlink" id="link3">Testimonios</a></li>
             <li><a href="../php/Identidad.php" class="navlink" id="link4">Nuestra identidad</a></li>
             <a href="<?=directorioReturn(); ?>" class="navlink"><button class="login">
                 <div class="icono">
@@ -81,33 +80,27 @@ function traducir(){
                         <img src="/avatar.jpg" alt="">
                     </div>
                     <h2 class="name">Lorem Dola Ipsum</h2>
-                    <p class="career">Psicologo</p>
+                    <p class="career" id="D1">Psicologo</p>
                 </div>
                 <div class="contact-info">
-                    <h3 class="main-title">Informacion de contacto</h3>
+                    <h3 class="main-title" id="D6">Informacion de contacto</h3>
                     <ul>
                         <li>
-                            <i class="fa fa-phone"></i>
                             07661892982
                         </li>
                         <li>
-                            <i class="fa fa-fax"></i>
                             loremipsum@gmail.com
                         </li>
                         <li>
-                            <i class="fa fa-globe"></i>
                             www.loremipsum.com
                         </li>
                         <li>
-                            <i class="fa fa-facebook"></i>
                             www.facebook.com/lorem
                         </li>
                         <li>
-                            <i class="fa fa-instagram"></i>
                             @loremipsum
                         </li>
                         <li>
-                            <i class="fa fa-map-marker"></i>
                             37 Pramount St, London
                         </li>
                     </ul>
@@ -117,7 +110,7 @@ function traducir(){
         <section class="right-section">
             <div class="right-main-content">
                 <section class="about sect">
-                    <h2 class="right-title">Sobre mi</h2>
+                    <h2 class="right-title" id="D2">Sobre mi</h2>
                     <p class="para">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestias facilis ullam dolorum, reprehenderit dolorem accusantium sit quo 
                         dolore nostrum assumenda obcaecati animi commodi nobis labore exercitationem corporis esse eveniet optio laudantium molestiae maiores pariatur nisi cumque. 
@@ -130,7 +123,7 @@ function traducir(){
                 </section>
 
                 <section class="experince sect">
-                    <h2 class="right-title">Experiencia</h2>
+                    <h2 class="right-title" id="D3">Experiencia</h2>
                     <div class="timeline">
                         <div class="left-tl-content">
                             <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam in sint facilis ea quidem?</h5>
@@ -156,7 +149,7 @@ function traducir(){
                     <div class="timeline">
                 </section>
                 <section class="education sect">
-                    <h2 class="right-title">education</h2>
+                    <h2 class="right-title" id="D4">Education</h2>
                     <div class="timeline">
                         <div class="left-tl-content">
                             <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ducimus tempore repudiandae labore commodi adipisci quidem soluta velit assumenda officia voluptatibus doloribus deserunt, vero, corrupti eum facere rem minus sit.</h5>
@@ -179,12 +172,12 @@ function traducir(){
                     </div>
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">University of Sussex</h5>
+                            <h5 class="tl-title" id="D5">Universidad</h5>
                             <p class="para">2018 - Present</p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Computer Science</h5>
+                                <h5 class="tl-title-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod velit assumenda necessitatibus ad veritatis sunt earum esse, saepe laboriosam molestiae voluptate architecto!</h5>
                                 <p class="para">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
                                     voluptatem deleniti, 
@@ -207,7 +200,7 @@ function traducir(){
                     <div class="timeline">
                         <div class="left-tl-content">
                             <h5 class="tl-title">Alphabet Inc</h5>
-                            <p class="para">June 2016</p>
+                            <p class="para">.....</p>
                         </div>
                         <div class="right-tl-content">
 

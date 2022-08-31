@@ -66,7 +66,7 @@ function traducir(){
         <ul>
             <li><a href="../php/Psicologos.php" class="navlink" id="link1">Psicologos</a></li>
             <li><a href="../php/FAQ.php" class="navlink" id="link2">Preguntas frecuentes</a></li>
-            <li><a href="../php/casos clinicos.php" class="navlink" id="link3">Blog</a></li>
+            <li><a href="../php/casos clinicos.php" class="navlink" id="link3">Testimonios</a></li>
             <li><a href="../php/Identidad.php" class="navlink" id="link4">Nuestra identidad</a></li>
             <a href="<?=directorioReturn(); ?>" class="navlink" id="link5"><button class="login">
                 <div class="icono">

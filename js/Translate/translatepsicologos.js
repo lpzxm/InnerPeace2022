@@ -10,7 +10,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "en")
                 document.querySelector("#link1").innerHTML = "Psychologists";
                 document.querySelector("#link2").innerHTML = "Frequent questions";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonials";
                 document.querySelector("#link4").innerHTML = "About us";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Logout";
@@ -46,7 +46,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "es")
                 document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonios";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Salir";
@@ -84,7 +84,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "en")
                 document.querySelector("#link1").innerHTML = "Psychologists";
                 document.querySelector("#link2").innerHTML = "Frequent questions";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonials";
                 document.querySelector("#link4").innerHTML = "About us";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Logout";
@@ -120,7 +120,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "es")
                 document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonios";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Salir";

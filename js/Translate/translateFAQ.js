@@ -10,7 +10,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "en")
                 document.querySelector("#link1").innerHTML = "Psychologists";
                 document.querySelector("#link2").innerHTML = "Frequent questions";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonials";
                 document.querySelector("#link4").innerHTML = "About us";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Logout";
@@ -27,7 +27,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#label2").innerHTML = "What is our main intention?"
                 document.querySelector("#label_desc2").innerHTML = "Our main intention is to give a hand to young people who suffer from psychological ailments in the face of student stress."
                 document.querySelector("#label3").innerHTML = "What information do we provide?"
-                document.querySelector("#label_desc3").innerHTML = "On our website, we provide information about the most common ailments in young people and interactive solutions at your fingertips, we also have a blog with various topics to answer any questions you may have."
+                document.querySelector("#label_desc3").innerHTML = "On our website, we provide information about the most common ailments in young people and interactive solutions at your fingertips, we also have a Testimonials with various topics to answer any questions you may have."
                 document.querySelector("#label4").innerHTML = "What is or what is the bot icon that appears on my screen?"
                 document.querySelector("#label_desc4").innerHTML = "The icon that appears on the right side of your screen, yes, it is a bot. It's called PeaceBot, this will be your personal assistant, with whom you can interact, from friend to friend, advising you in the best way."
                 // footer
@@ -45,7 +45,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "es")
                 document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonios";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Salir";
@@ -83,7 +83,7 @@ image.src = '../img/united-kingdom.png';
                 localStorage.setItem("idioma", "en")
                 document.querySelector("#link1").innerHTML = "Psychologists";
                 document.querySelector("#link2").innerHTML = "Frequent questions";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonials";
                 document.querySelector("#link4").innerHTML = "About us";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Logout";
@@ -100,7 +100,7 @@ image.src = '../img/united-kingdom.png';
                 document.querySelector("#label2").innerHTML = "What is our main intention?"
                 document.querySelector("#label_desc2").innerHTML = "Our main intention is to give a hand to young people who suffer from psychological ailments in the face of student stress."
                 document.querySelector("#label3").innerHTML = "What information do we provide?"
-                document.querySelector("#label_desc3").innerHTML = "On our website, we provide information about the most common ailments in young people and interactive solutions at your fingertips, we also have a blog with various topics to answer any questions you may have."
+                document.querySelector("#label_desc3").innerHTML = "On our website, we provide information about the most common ailments in young people and interactive solutions at your fingertips, we also have a Testimonials with various topics to answer any questions you may have."
                 document.querySelector("#label4").innerHTML = "What is or what is the bot icon that appears on my screen?"
                 document.querySelector("#label_desc4").innerHTML = "The icon that appears on the right side of your screen, yes, it is a bot. It's called PeaceBot, this will be your personal assistant, with whom you can interact, from friend to friend, advising you in the best way."
                 // footer
@@ -118,7 +118,7 @@ image.src = '../img/united-kingdom.png';
                   localStorage.setItem("idioma", "es")
                 document.querySelector("#link1").innerHTML = "Psicólogos";
                 document.querySelector("#link2").innerHTML = "Preguntas frecuentes";
-                document.querySelector("#link3").innerHTML = "Blog";
+                document.querySelector("#link3").innerHTML = "Testimonios";
                 document.querySelector("#link4").innerHTML = "Nuestra identidad";
                 if (document.querySelector("#Logout")) {
                     document.querySelector("#Logout").innerHTML = "Salir";
