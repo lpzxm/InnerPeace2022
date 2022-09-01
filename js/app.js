@@ -16,12 +16,13 @@ const getMessage = (msg) => {
       chatBody.append(divUser);
       setTimeout(() => {
         chatBody.append(divCpu);
+        document.querySelector("#chatbody").scrollTop=document.querySelector("#chatbody").scrollHeight
       }, 600);
-      //   console.log(divCpu);
     }
   };
   xhr.open("GET", "../php/chat.php?msg=" + msg, true);
   xhr.send();
+
 };
 
 btnSend.addEventListener("click", (e) => {
@@ -32,3 +33,6 @@ btnSend.addEventListener("click", (e) => {
     chat.value = "";
   }
 });
+
+
+

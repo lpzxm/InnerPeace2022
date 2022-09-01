@@ -154,7 +154,7 @@ function traducir(){
     </footer>
 
     
-    <script src="../js/app.js"></script>
+    <script src="../js/app.js" defer></script>
     <script src="../js/Translate/translatebot.js"></script> 
         
 </body>
