@@ -1,0 +1,1 @@
+Inner Peace, es un proyecto destinado para los jovenes de Bachillerato del Colegio Don Bosco, que se sienten retirados o frustados al ir a un psicologo, ante lo cual como proyecto busca atender todas estas necesidades, ya sea estres, depresión, falta de autoestima, etc. Paz interna es lo que todos en este mundo necesitamos, y Inner Peace te la proporciona. Ingresa ya!
