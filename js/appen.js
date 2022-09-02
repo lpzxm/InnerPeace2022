@@ -16,8 +16,8 @@ const getMessage = (msg) => {
       chatBody.append(divUser);
       setTimeout(() => {
         chatBody.append(divCpu);
+        document.querySelector("#chatbody").scrollTop=document.querySelector("#chatbody").scrollHeight
       }, 600);
-      //   console.log(divCpu);
     }
   };
   xhr.open("GET", "../php/chaten.php?msg=" + msg, true);
