@@ -8,8 +8,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="../css/aviso de privacidad.css">
+	<link rel="stylesheet" href="../css/loading.css">
 </head>
 <body>
+	<!-- loading -->
+    <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
 	<main>
 		<a href="../php/Registro1.php" id="q2">Regresar</a>
 		<br><br>
@@ -37,5 +44,16 @@
 	</main>
      <!-- translate js -->
      <script src="../js/Translate/privacidad.js"></script>
+	     <!-- loading script -->
+	<script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
 </body>
 </html>

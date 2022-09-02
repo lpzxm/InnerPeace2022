@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/acceso denegado.css">
+    <link rel="stylesheet" href="../css/loading.css">
      <link rel="stylesheet" href="../css/footer.css">
     <title id="a0">Acceso denegado de paginas </title>
 </head>
 <body>
+    <!-- loading -->
+    <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
     <main>
 
         <h1 id="a1">¡ACCESO DENEGADO! </h1><br><br><br><br><br>
@@ -29,6 +36,17 @@
 	</main>
      <!-- translate js -->
      <script src="../js/Translate/Racceso.js"></script>
+         <!-- loading script -->
+    <script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
 
 </body>
 </html>

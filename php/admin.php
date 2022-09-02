@@ -10,8 +10,15 @@ $usuarios = "SELECT * FROM datos_estudiante"
   <meta charset="UTF-8" />
   <title>Dashbord</title>
   <link rel="stylesheet" href="../css/diseño D.css" />
+  <link rel="stylesheet" href="../css/loading.css">
 </head>
 <body>
+  <!-- loading -->
+  <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+  </div>
   <div class="container">
     <nav>
       <ul>
@@ -82,6 +89,17 @@ $usuarios = "SELECT * FROM datos_estudiante"
   </div>
 
     <script src="../js/Translate/admin.js"></script>
+        <!-- loading script -->
+    <script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
 
 
    

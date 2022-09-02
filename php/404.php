@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/404css.css">
+    <link rel="stylesheet" href="../css/loading.css">
     <title>Pagina no encontrada - Inner Peace</title>
 </head>
 <body>
+  <!-- loading -->
+  <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+  </div>
 <div class="notfound-copy">
   <svg aria-labelledby="404" alt="404 Page not found" class="not-found">
 
@@ -54,6 +61,17 @@
   </div>
 
   <script src="../js/Translate/404.js"></script>
+
+  <script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+  </script>
 
 </body>
 </html>

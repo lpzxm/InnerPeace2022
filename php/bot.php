@@ -41,10 +41,16 @@ function traducir(){
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/bootstyle.css">
     <link rel="stylesheet" href="../css/footer.css">
-
+    <link rel="stylesheet" href="../css/loading.css">
 </head>
 
 <body>
+    <!-- loading -->
+    <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
  <!--navbar-->
  <nav>
         <input type="checkbox" name="" id="check">
@@ -156,6 +162,18 @@ function traducir(){
     
     <script src="../js/app.js" defer></script>
     <script src="../js/Translate/translatebot.js"></script> 
+
+        <!-- loading script -->
+    <script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
         
 </body>
 

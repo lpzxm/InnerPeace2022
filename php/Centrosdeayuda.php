@@ -36,10 +36,17 @@ function traducir(){
 	<link rel="stylesheet" href="../css/menu.css">
 	<link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/centrosayudastyle.css">
+    <link rel="stylesheet" href="../css/loading.css">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace - Centros de ayuda psicologica</title>
 </head>
 <body>
+    <!-- loading -->
+    <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
      <!--navbar-->
     <nav>
         <input type="checkbox" name="" id="check">
@@ -177,5 +184,17 @@ function traducir(){
     </footer>
     <!-- Script translate -->
  <script src="../js/Translate/centrosAyuda.js"></script>
+
+     <!-- loading script -->
+    <script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
 </body>
 </html>

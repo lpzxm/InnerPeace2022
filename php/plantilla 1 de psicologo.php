@@ -37,10 +37,17 @@ function traducir(){
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/Chatbot.css">
     <link rel="stylesheet" href="../css/informacion.css">
+    <link rel="stylesheet" href="../css/loading.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace-Psicologo</title>
 </head>
+    <!-- loading -->
+    <div class="loader">
+        <div class="lds-heart">
+            <div></div>
+        </div>
+    </div>
     <body>
     <!--navbar-->
     <nav>
@@ -249,6 +256,18 @@ function traducir(){
     </footer>
         <!-- Script translate -->
   <script src="../js/Translate/plantilla_psicologos.js"></script>
+
+      <!-- loading script -->
+    <script>
+        window.addEventListener("load", () =>{
+            const loader = document.querySelector(".loader");
+            loader.classList.add("loader-hidden");
+
+            loader.addEventListener("transtitionend", () =>{
+                document.body.removeChild("loader");
+            })
+        })
+    </script>
 
 </body>
 </html>
