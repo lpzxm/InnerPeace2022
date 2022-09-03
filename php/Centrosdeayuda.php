@@ -37,6 +37,7 @@ function traducir(){
 	<link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/centrosayudastyle.css">
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace - Centros de ayuda psicologica</title>
 </head>

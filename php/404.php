@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/404css.css">
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
     <title>Pagina no encontrada - Inner Peace</title>
 </head>
 <body>

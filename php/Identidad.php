@@ -39,6 +39,7 @@ function traducir()
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/diseño de identidad.css">
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace - Identidad</title>
 

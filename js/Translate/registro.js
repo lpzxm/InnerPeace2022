@@ -36,7 +36,7 @@ image.src = "../img/united-kingdom.png";
                 document.querySelector(".poli").innerHTML = "Privacy Policy";
                 document.getElementsByName('password')[0].placeholder = "Enter your password";
                 document.querySelector("#TitleL").value = "Register";
-                document.querySelector("#TitleM").innerHTML = "I already have a password";
+                document.querySelector("#TitleM").innerHTML = "I already have an account";
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
                 document.querySelector(".trans").appendChild(image).style.width = "50px";
@@ -110,7 +110,7 @@ image.src = "../img/united-kingdom.png";
                 document.querySelector("#TitleH").innerHTML = "Password";
                 document.getElementsByName('password')[0].placeholder = "Enter your password";
                 document.querySelector("#TitleL").value = "Register";
-                document.querySelector("#TitleM").innerHTML = "I already have a password";
+                document.querySelector("#TitleM").innerHTML = "I already have an account";
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
                 document.querySelector(".trans").appendChild(image).style.width = "50px";

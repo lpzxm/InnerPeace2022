@@ -38,6 +38,7 @@ function traducir(){
     <link rel="stylesheet" href="../css/Chatbot.css">
     <link rel="stylesheet" href="../css/informacion.css">
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <title>Inner Peace-Psicologo</title>

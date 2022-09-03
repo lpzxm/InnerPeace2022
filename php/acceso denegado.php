@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/acceso denegado.css">
+    <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/loading.css">
-     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <title id="a0">Acceso denegado de paginas </title>
 </head>
 <body>

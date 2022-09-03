@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/registrostyle.css">
   <link rel="stylesheet" href="../css/loading.css">
+  <link rel="stylesheet" href="../css/scrollbar.css">
   <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
   <title>Registrate</title>
 </head>

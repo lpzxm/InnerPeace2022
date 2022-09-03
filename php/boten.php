@@ -37,14 +37,14 @@ function traducir(){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot con php</title>
+    <title>PeaceBot</title>
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/botfooter.css">
     <link rel="stylesheet" href="../css/bootstyle.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
+    <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
 </head>
-
 <body>
     <!-- loading -->
     <div class="loader">
@@ -106,10 +106,10 @@ function traducir(){
                     <form class="chat" method="post" autocomplete="off">
                     
                                 <div>
-                                    <input type="text" name="chat" id="chat" placeholder="Preguntale algo" style=" font-family: cursive; font-size: 20px;">
+                                    <input type="text" name="chat" id="chat" placeholder="Ask him something" style=" font-family: cursive; font-size: 20px;">
                                 </div>
                                 <div>
-                                    <input type="submit" value="Enviar" id="btn">
+                                    <input type="submit" value="Send" id="btn">
                                 </div>
                     </form>
         </div>

@@ -69,6 +69,7 @@ if (isset($_GET['action']) && $_GET['action']  === 'delete') {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/style.css"/>
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
     <title>Lista de tareas</title>
 </head>
 

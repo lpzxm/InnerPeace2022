@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="../css/aviso de privacidad.css">
 	<link rel="stylesheet" href="../css/loading.css">
+	<link rel="stylesheet" href="../css/scrollbar.css">
 </head>
 <body>
 	<!-- loading -->

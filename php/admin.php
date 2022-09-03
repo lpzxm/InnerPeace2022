@@ -8,9 +8,11 @@ $usuarios = "SELECT * FROM datos_estudiante"
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Dashbord</title>
+  <title>Dashboard</title>
   <link rel="stylesheet" href="../css/diseño D.css" />
   <link rel="stylesheet" href="../css/loading.css">
+  <link rel="stylesheet" href="../css/scrollbar.css">
+  <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">nk
 </head>
 <body>
   <!-- loading -->

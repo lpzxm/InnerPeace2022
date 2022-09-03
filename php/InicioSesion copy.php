@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/loginstyle.css">
   <link rel="stylesheet" href="../css/loading.css">
+  <link rel="stylesheet" href="../css/scrollbar.css">
   <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
   <script type="text/javascript">
     function noRegresar() {

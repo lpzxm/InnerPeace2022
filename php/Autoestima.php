@@ -38,6 +38,7 @@ function traducir(){
     <link rel="stylesheet" href="../css/Chatbot.css">
     <link rel="stylesheet" href="../css/Autoestimastyle.css">
     <link rel="stylesheet" href="../css/loading.css">
+    <link rel="stylesheet" href="../css/scrollbar.css">
     <link rel="shortcut icon" href="../img/logo_small_icon_only.png" type="image/x-icon">
     
     <title>Inner Peace - Autoestima y desarrollo personal</title>

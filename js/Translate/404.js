@@ -8,6 +8,7 @@ image.src = '../img/united-kingdom.png';
         if(idiomaStorage){
             if (idiomaStorage.idioma == "en") {
                 localStorage.setItem("idioma", "en")
+                document.title = "Page not found - Inner Peace";
                 document.querySelector("#page1").innerHTML = "Page not found";
 
                 // checkedbutton
@@ -17,6 +18,7 @@ image.src = '../img/united-kingdom.png';
             }
             else{
                 localStorage.setItem("idioma", "es")
+                document.title = "Página no encontrada - Inner Peace";
                 document.querySelector("#page1").innerHTML = "Página no encontrada";
 
                 // checkedbutton
@@ -28,6 +30,7 @@ image.src = '../img/united-kingdom.png';
         else if(input){
             if (!input.checked) {
                 localStorage.setItem("idioma", "en")
+                document.title = "Page not found - Inner Peace";
                 document.querySelector("#page1").innerHTML = "Page not found";
                 // checkedbutton
                 document.querySelector(".trans").appendChild(img).style.width = "50px";
@@ -37,6 +40,7 @@ image.src = '../img/united-kingdom.png';
             else{
                   localStorage.setItem("idioma", "es")
                 // title
+                document.title = "Página no encontrada - Inner Peace";
                 document.querySelector("#page1").innerHTML = "Página no encontrada";
 
                 // checkedbutton
