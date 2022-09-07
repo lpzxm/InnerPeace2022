@@ -85,9 +85,9 @@ function traducir(){
             <div class="left-content">
                 <div class="profile">
                     <div class="image">
-                        <img src="/avatar.jpg" alt="">
+                        <img src="../img/Psicologoo.png" alt="">
                     </div>
-                    <h2 class="name">Lorem Dola Ipsum</h2>
+                    <h2 class="name">Dennis Alonso Rivera Peña</h2>
                     <p class="career" id="D1">Psicologo</p>
                 </div>
                 <div class="contact-info">
@@ -97,19 +97,7 @@ function traducir(){
                             07661892982
                         </li>
                         <li>
-                            loremipsum@gmail.com
-                        </li>
-                        <li>
-                            www.loremipsum.com
-                        </li>
-                        <li>
-                            www.facebook.com/lorem
-                        </li>
-                        <li>
-                            @loremipsum
-                        </li>
-                        <li>
-                            37 Pramount St, London
+                            dennis.rivera@cdb.edu.sv
                         </li>
                     </ul>
                 </div>
@@ -119,14 +107,8 @@ function traducir(){
             <div class="right-main-content">
                 <section class="about sect">
                     <h2 class="right-title" id="D2">Sobre mi</h2>
-                    <p class="para">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestias facilis ullam dolorum, reprehenderit dolorem accusantium sit quo 
-                        dolore nostrum assumenda obcaecati animi commodi nobis labore exercitationem corporis esse eveniet optio laudantium molestiae maiores pariatur nisi cumque. 
-                        Distinctio et, totam, dicta autem nostrum doloribus ipsam vel rerum, molestiae soluta laboriosam. <br>
-                        <br>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto porro suscipit. 
-                        Nihil blanditiis cum voluptates odio recusandae deleniti, nulla repudiandae aliquam adipisci iusto reiciendis sequi labore quos ratione accusamus consectetur, 
-                        libero ex assumenda pariatur commodi animi nobis, dolore id.
+                    <p class="para" id="D7">
+                    Experiencia Profesional Dirigente, capacitador y activista social.Facilitador de procesos vivenciales con metodologías lúdicas participativas alternativas. Formación y experiencia teatral por 15 años. 
                     </p>
                 </section>
 
@@ -134,24 +116,22 @@ function traducir(){
                     <h2 class="right-title" id="D3">Experiencia</h2>
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam in sint facilis ea quidem?</h5>
-                            <p class="para">Lorem, ipsum.</p>
+                            <h5 class="tl-title" id="D8">Terapeuta sistémico, entrenado en Constelaciones Familiares y Pedagogía SistémicaAsociación Institución Salesiana - Colegio Don Bosco - UDB - Ciudadela Don Bosco Psicólogo Escolar para 9° Grado y Bachillerato.</h5>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Lorem, ipsum.</h5>
-                                <p class="para">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
-                                    voluptatem deleniti, 
-                                    laboriosam odio nobis quae fugit facilis quo.
+                                <h5 class="tl-title-2" id="D9">Asociación para las Artes Escénicas (ESCENICA)</h5>
+                                <p class="para" id="D10">
+                                Terapeuta Sistémico/Facilitador/Ac Asociación para las Artes Escénicas (ESCENICA)  World Vision El Salvador
+                                Proyecto Fortalecimiento del Sistema de Justicia Juvenil
+                                Terapeuta Sistémico/Facilitador en taller de fortalecimiento de vínculos familiares.
                                 </p>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam in sint facilis ea quidem?</h5>
-                            <p class="para">Lorem, ipsum.</p>
                         </div>
                     </div>
                     <div class="timeline">
@@ -160,20 +140,39 @@ function traducir(){
                     <h2 class="right-title" id="D4">Education</h2>
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ducimus tempore repudiandae labore commodi adipisci quidem soluta velit assumenda officia voluptatibus doloribus deserunt, vero, corrupti eum facere rem minus sit.</h5>
-                            <p class="para">Lorem, ipsum.</p>
+                            <h5 class="tl-title"id="D11">UCA El Salvador  Universidad Politécnica de
+                                                    Nicaragua  Centro de Alternativas Terapéuticas
+                                                    Terapeuta Sistémico
+
+                                                    Institución Universitaria Colegio Mayor de Antioquia (Colombia)
+                                                    Certificación Cátedra de Paz  PAZRED: Tejidos colectivos de la memoria en el
+                                                    Occidente de Antioquia.
+
+                                                    Universidad de El Salvador
+                                                    Licenciatura en Psicología
+
+                                                    Universidad Don Bosco</h5>
+                            <br>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Lorem, ipsum dolor.</h5>
-                                <p class="para">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
-                                    voluptatem deleniti, 
-                                    laboriosam odio nobis quae fugit facilis quo.
+                            <h5 class="tl-title-2" id="D12">Experiencia</h5>
+                                <p class="para" id="D13">
+                                MOP La Unión - Fondos del Milenio II
+                                Psicólogo/Facilitador en taller básico de Masculinidades.
+                                Corporación para la Investigación y la Educación Popular (CIEP). Bogotá, Colombia.
+                                Psicólogo/Facilitador en Procesos Pedagógicos Ayuda en Acción - CORDES  FUNDESYRAM
+                                Proyecto reducción del impacto sanitario y económico de la pandemia de covid-19 a nivel local
+                                Consultoría para: Asistencia psicosocial/primeros auxilios psicológicos, para niñez en confinamiento
+                                domiciliar y/o víctimas de violencia a causa de emergencia por COVID19)
+                                Consultor/Terapeuta Sistémico/Facilitador de Atención Psicosocial.
+
                                 </p>
                             </div>
                         </div>
                     </div>
+
+                    
                     <div class="timeline">
                         <div class="right-tl-content">
                         </div>
@@ -181,37 +180,20 @@ function traducir(){
                     <div class="timeline">
                         <div class="left-tl-content">
                             <h5 class="tl-title" id="D5">Universidad</h5>
-                            <p class="para">2018 - Present</p>
+                            <p class="para" id="D14">Universidad de El Salvador Licenciatura en Psicología,Universidad Don Bosco Maestría en Investigación de la Educación (En Curso)</p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod velit assumenda necessitatibus ad veritatis sunt earum esse, saepe laboriosam molestiae voluptate architecto!</h5>
-                                <p class="para">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
-                                    voluptatem deleniti, 
-                                    laboriosam odio nobis quae fugit facilis quo.
+                                <h5 class="tl-title-2" id="D15">Área actual de Desarrollo</h5>
+                                <p class="para" id="D16">
+                                Asociación Institución Salesiana - Colegio Don Bosco  UDB  Ciudadela Don Bosco
+                                Psicólogo Escolar para Bachillerato.
+                                Atención psicopedagógica individual y grupal en modalidades virtual y presencial para
+                                niñas, niños, adolescentes y sus familias del Colegio Don Bosco.
+                                Capacitaciones para CDB-CFP
+                                Diseño e Implementación de Programas de O 
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="awards sect">
-                    <h2 class="right-title">lorem</h2>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Lorem, ipsum.</h5>
-                            <p class="para">Lorem, ipsum.</p>
-                        </div>
-                        <div class="right-tl-content">
-                        </div>
-                    </div>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Alphabet Inc</h5>
-                            <p class="para">.....</p>
-                        </div>
-                        <div class="right-tl-content">
-
                         </div>
                     </div>
                 </section>
