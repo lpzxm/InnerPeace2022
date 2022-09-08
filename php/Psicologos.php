@@ -99,7 +99,7 @@ function traducir()
                 </div>
                 <hr>
                 <div class="cardescription">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sapiente itaque minima repellendus exercitationem maxime placeat voluptatum doloribus explicabo velit, corporis a sit. Cumque reprehenderit dolorem facilis placeat aperiam quos.</p>
+                    <p id="psi-desc">Experiencia Profesional Dirigente, capacitador y activista social.Facilitador de procesos vivenciales con metodologías lúdicas participativas alternativas. Formación y experiencia teatral por 15 años.</p>
                 </div>
                 <hr>
                 <div class="cardbutton">
@@ -114,7 +114,7 @@ function traducir()
                 </div>
                 <hr>
                 <div class="cardescription">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sapiente itaque minima repellendus exercitationem maxime placeat voluptatum doloribus explicabo velit, corporis a sit. Cumque reprehenderit dolorem facilis placeat aperiam quos.</p>
+                    <p id="psi-desc2">Experiencia Profesional Dirigente, capacitador y activista social.Facilitador de procesos vivenciales con metodologías lúdicas participativas alternativas. Formación y experiencia teatral por 15 años.</p>
                 </div>
                 <hr>
                 <div class="cardbutton">
@@ -129,7 +129,7 @@ function traducir()
                 </div>
                 <hr>
                 <div class="cardescription">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sapiente itaque minima repellendus exercitationem maxime placeat voluptatum doloribus explicabo velit, corporis a sit. Cumque reprehenderit dolorem facilis placeat aperiam quos.</p>
+                    <p id="psi-desc3">Experiencia Profesional Dirigente, capacitador y activista social.Facilitador de procesos vivenciales con metodologías lúdicas participativas alternativas. Formación y experiencia teatral por 15 años.</p>
                 </div>
                 <hr>
                 <div class="cardbutton">
@@ -146,7 +146,7 @@ function traducir()
                 </div>
                 <hr>
                 <div class="cardescription">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sapiente itaque minima repellendus exercitationem maxime placeat voluptatum doloribus explicabo velit, corporis a sit. Cumque reprehenderit dolorem facilis placeat aperiam quos.</p>
+                    <p id="psi-desc4">Experiencia Profesional Dirigente, capacitador y activista social.Facilitador de procesos vivenciales con metodologías lúdicas participativas alternativas. Formación y experiencia teatral por 15 años.</p>
                 </div>
                 <hr>
                 <div class="cardbutton">
@@ -161,7 +161,7 @@ function traducir()
                 </div>
                 <hr>
                 <div class="cardescription">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sapiente itaque minima repellendus exercitationem maxime placeat voluptatum doloribus explicabo velit, corporis a sit. Cumque reprehenderit dolorem facilis placeat aperiam quos.</p>
+                    <p id="psi-desc5">Experiencia Profesional Dirigente, capacitador y activista social.Facilitador de procesos vivenciales con metodologías lúdicas participativas alternativas. Formación y experiencia teatral por 15 años.</p>
                 </div>
                 <hr>
                 <div class="cardbutton">
