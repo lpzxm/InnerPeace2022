@@ -127,7 +127,7 @@ body {
   }
 
   
-  .login-box input[type="text"], .login-box input[type="password"] {
+  .login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"] {
     border: none;
     border-bottom: 1px solid rgb(196, 196, 196);
     background: transparent;
@@ -182,6 +182,10 @@ body {
   }
 
   input[type="password"]::placeholder{
+    color: rgba(255, 255, 255, 0.832);
+  }
+
+  input[type="email"]::placeholder{
     color: rgba(255, 255, 255, 0.832);
   }
   

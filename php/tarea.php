@@ -100,7 +100,7 @@ if (isset($_GET['action']) && $_GET['action']  === 'delete') {
                 <input type="hidden" name="id" value="<?php if ($editing) {
                                                             echo $taskData['id'];
                                                         } ?>">
-                <input type="text" name="task" id="task" placeholder="Tarea nueva" value="<?php if ($editing) {
+                <input type="text" name="task" id="task" placeholder="Tarea nueva" required value="<?php if ($editing) {
                                                                                                 echo $taskData['task'];
                                                                                             } ?>" />
                 <button type="submit" name="submit" id="add"><?php if ($editing) {

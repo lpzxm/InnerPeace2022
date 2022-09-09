@@ -69,7 +69,7 @@
         <label for="username" id="TitleB">Usuario:</label>
         <input type="text" name="username" placeholder="Ingresa un usuario" required>
         <label for="password" id="TitleD">Correo electronico</label>
-        <input type="text" name="email" placeholder="Ingresa tu correo electronico" required>
+        <input type="email" name="email" placeholder="Ingresa tu correo electronico" required>
         <label for="password" id="TitleF">Codigo de estudiante</label>
         <input type="text" name="codigo_estudiante" placeholder="Ingresa tu codigo de estudiante" required>
         <label for="datetime" id="A">Fecha de nacimiento:</label>
