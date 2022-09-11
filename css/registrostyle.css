@@ -4,13 +4,12 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: url(../img/back_formm.jpg);
-    background-size: 130%;
-    background-repeat: no-repeat;
-    height: 150vh;
-  }
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #a5f0e3 25%, transparent 25%) -32px 0/ 64px 64px, linear-gradient(225deg, rgba(165, 240, 227, 0.5) 25%, transparent 25%) -32px 0/ 64px 64px, linear-gradient(315deg, #a5f0e3 25%, transparent 25%) 0 0/ 64px 64px, linear-gradient(45deg, rgba(165, 240, 227, 0.5) 25%, #109d8f 25%) 0 0/ 64px 64px;
+  background-color: #109d8f;
+  height: 100vh;
+}
 
   select {
     width: 100%;
@@ -63,7 +62,10 @@ body {
     margin-bottom: 300px;
     position: absolute;
     border-radius: 20px;
-    background: rgba(0, 0, 0, 0.584);
+    background: rgba(94, 94, 94, 0.7);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255,255,255,0.35);
     color: rgb(255, 255, 255);
     top: 50%;
     left: 50%;

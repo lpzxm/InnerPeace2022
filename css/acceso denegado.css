@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: rgb(58, 113, 190);
+    background: linear-gradient(135deg, #a5f0e3 25%, transparent 25%) -32px 0/ 64px 64px, linear-gradient(225deg, rgba(165, 240, 227, 0.5) 25%, transparent 25%) -32px 0/ 64px 64px, linear-gradient(315deg, #a5f0e3 25%, transparent 25%) 0 0/ 64px 64px, linear-gradient(45deg, rgba(165, 240, 227, 0.5) 25%, #109d8f 25%) 0 0/ 64px 64px;
+    background-color: #109d8f;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
